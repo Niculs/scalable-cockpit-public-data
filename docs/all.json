@@ -2,7 +2,7 @@
   "schema_version": 1,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-23T20:46:36.788Z",
+    "copied_at": "2026-10-23T23:34:34.121Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -11,7 +11,7 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-10-23T20:46:35.767Z",
+    "generated_at": "2026-10-23T23:34:33.457Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
@@ -296,12 +296,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T12:44:20.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         },
         {
           "isin": "SGXZ69436764",
@@ -309,12 +309,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T14:40:53.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         },
         {
           "isin": "IE00BK5BQT80",
@@ -322,12 +322,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T16:37:44.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         },
         {
           "isin": "IE00BKM4GZ66",
@@ -335,12 +335,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T16:24:52.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         },
         {
           "isin": "JE00BN2CJ301",
@@ -348,12 +348,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         },
         {
           "isin": "IE000KJPDY61",
@@ -361,7 +361,7 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T16:53:11.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
@@ -374,7 +374,7 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T15:51:08.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
@@ -387,12 +387,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T15:35:17.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         },
         {
           "isin": "IE000T8QD852",
@@ -400,7 +400,7 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T15:51:04.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
@@ -413,12 +413,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 0,
+          "age_days": 1,
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 0
+          "fx_age_days": 1
         }
       ],
       "booking_issues": [],
@@ -480,7 +480,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-10-23T20:46:36.248Z",
+    "generated_at": "2026-10-23T23:34:33.796Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -514,7 +514,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:37:44.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -535,8 +535,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 0,
             "payments": 0
           },
@@ -609,7 +609,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:24:52.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -630,8 +630,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 0,
             "payments": 0
           },
@@ -704,7 +704,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -725,8 +725,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 0,
             "payments": 0
           },
@@ -799,7 +799,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:53:11.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -820,8 +820,8 @@
         "dividends": {
           "payments": 1,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 91.09,
             "payments": 1
           },
@@ -919,7 +919,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:08.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -940,8 +940,8 @@
         "dividends": {
           "payments": 2,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 207.63,
             "payments": 2
           },
@@ -1039,7 +1039,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1060,8 +1060,8 @@
         "dividends": {
           "payments": 2,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 111.61,
             "payments": 2
           },
@@ -1159,7 +1159,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:04.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1180,8 +1180,8 @@
         "dividends": {
           "payments": 3,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 81.5,
             "payments": 3
           },
@@ -1312,7 +1312,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T12:44:20.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1333,8 +1333,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 0,
             "payments": 0
           },
@@ -1407,7 +1407,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T14:40:53.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1428,8 +1428,8 @@
         "dividends": {
           "payments": 13,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 326.95,
             "payments": 3
           },
@@ -1528,7 +1528,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:35:17.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1549,8 +1549,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-23",
-            "to": "2026-10-23",
+            "from": "2025-10-24",
+            "to": "2026-10-24",
             "value": 0,
             "payments": 0
           },
@@ -1649,7 +1649,7 @@
   },
   "purchases": {
     "schema_version": 1,
-    "generated_at": "2026-10-23T20:46:36.685Z",
+    "generated_at": "2026-10-23T23:34:34.065Z",
     "currency": "EUR",
     "scope": "historical_purchases_gold_rex_crypto_rex_tech_yieldmax",
     "filters": {
@@ -1689,7 +1689,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1717,7 +1717,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:08.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1745,7 +1745,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1773,7 +1773,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:04.000Z",
           "date": "2026-10-23",
-          "age_days": 0,
+          "age_days": 1,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
