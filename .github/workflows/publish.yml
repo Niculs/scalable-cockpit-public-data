@@ -1,0 +1,37 @@
+name: Publish public portfolio JSON
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: public-portfolio-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify publisher
+        run: node --test sync.test.mjs
+      - name: Fetch and validate the three public APIs
+        env:
+          MIRROR_SCHEDULE_ACTIVE: "1"
+        run: node sync.mjs
+      - name: Update the JSON files reachable by ChatGPT
+        run: node commit-public.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+          retention-days: 1
+      - name: Publish JSON
+        id: deployment
+        uses: actions/deploy-pages@v4
