@@ -1,0 +1,444 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-23T20:37:33.062Z",
+  "currency": "EUR",
+  "scope": "all",
+  "data_as_of": {
+    "bookings_through": "2026-10-23",
+    "quotes_earliest": "2026-10-23T12:44:20.000Z",
+    "quotes_latest": "2026-10-23T16:53:11.000Z",
+    "dividend_reference_checked_at": "2026-10-23T12:23:05.303Z",
+    "broker_imports": {
+      "scalable": {
+        "revision": 10,
+        "updated_at": "2026-10-23T17:40:23.703Z",
+        "bookings": 1258
+      },
+      "trade-republic": {
+        "revision": 1,
+        "updated_at": "2026-09-18T16:40:00.000Z",
+        "bookings": 29
+      }
+    }
+  },
+  "overview": {
+    "securities_value": 123238.02,
+    "cash_balance": 22556.92,
+    "total_wealth": 145794.94,
+    "positions": 10,
+    "dividends_total": 13099.82,
+    "dividend_payments": 128,
+    "dividends_last_month": {
+      "period": "2026-09",
+      "value": 322.55,
+      "payments": 7
+    },
+    "dividends_next_month": {
+      "period": "2026-11",
+      "estimated_value": 352.25,
+      "is_forecast": true,
+      "amount_status": "estimated",
+      "components": [
+        {
+          "isin": "SGXZ69436764",
+          "name": "BW LPG LTD.",
+          "estimated_value": 0,
+          "amount_status": "estimated",
+          "basis": [
+            {
+              "broker": "scalable",
+              "method": "last_booked_payment_scaled",
+              "description": "Letzte Buchung je berechtigtem Anteil × aktueller Bestand",
+              "after_tax": true,
+              "payments_per_year": 4,
+              "weekly_estimate": false,
+              "source_checked_at": "2026-10-23T12:23:05.303Z"
+            }
+          ]
+        },
+        {
+          "isin": "IE000KJPDY61",
+          "name": "iShares World Equity High Income (Dist)",
+          "estimated_value": 50.78,
+          "amount_status": "estimated",
+          "basis": [
+            {
+              "broker": "scalable",
+              "method": "last_booked_payment_scaled",
+              "description": "Letzte Buchung je berechtigtem Anteil × aktueller Bestand",
+              "after_tax": true,
+              "payments_per_year": 12,
+              "weekly_estimate": false,
+              "source_checked_at": "2026-10-23T12:23:05.303Z"
+            }
+          ]
+        },
+        {
+          "isin": "IE0008BA4TY1",
+          "name": "Rex Crypto Equity Income & Growth (Dist)",
+          "estimated_value": 103.51,
+          "amount_status": "estimated",
+          "basis": [
+            {
+              "broker": "scalable",
+              "method": "last_booked_payment_scaled",
+              "description": "Letzte Buchung je berechtigtem Anteil × aktueller Bestand",
+              "after_tax": true,
+              "payments_per_year": 12,
+              "weekly_estimate": false,
+              "source_checked_at": "2026-10-23T12:23:05.303Z"
+            }
+          ]
+        },
+        {
+          "isin": "IE000T8QD852",
+          "name": "YieldMax Semiconductor Option Income (Dist)",
+          "estimated_value": 107.6,
+          "amount_status": "estimated",
+          "basis": [
+            {
+              "broker": "scalable",
+              "method": "last_booked_payment_scaled",
+              "description": "Letzte Buchung je berechtigtem Anteil × aktueller Bestand",
+              "after_tax": true,
+              "payments_per_year": 52,
+              "weekly_estimate": true,
+              "source_checked_at": "2026-10-23T12:23:05.303Z"
+            }
+          ]
+        },
+        {
+          "isin": "IE000HF69TA9",
+          "name": "Rex Tech Innovation Premium Income (Dist)",
+          "estimated_value": 90.36,
+          "amount_status": "estimated",
+          "basis": [
+            {
+              "broker": "scalable",
+              "method": "last_booked_payment_scaled",
+              "description": "Letzte Buchung je berechtigtem Anteil × aktueller Bestand",
+              "after_tax": true,
+              "payments_per_year": 12,
+              "weekly_estimate": false,
+              "source_checked_at": "2026-10-23T12:23:05.303Z"
+            }
+          ]
+        }
+      ],
+      "note": "Hochrechnung aus gebuchten Zahlungen und Emittentendaten. Wochenzahlungen, insbesondere CHPY, bleiben Schätzwerte; Betrag und Steuerwirkung sind nicht garantiert."
+    }
+  },
+  "performance": {
+    "result_bridge": {
+      "scope": "all_brokers_all_imported_history",
+      "open_isins": 10,
+      "closed_isins": 72,
+      "components": [
+        {
+          "key": "open_positions",
+          "label": "Ergebnis der heute offenen ISINs",
+          "value": 6376.66,
+          "explanation": "Offene Kursgewinne plus alle historischen Verkäufe, Ausschüttungen und zugeordneten Steuerbuchungen derselben ISINs. Entspricht dem Standardumfang von /api/public/positions."
+        },
+        {
+          "key": "closed_positions",
+          "label": "Ergebnis heute geschlossener ISINs",
+          "value": 918.43,
+          "explanation": "Realisierte Verkäufe, Ausschüttungen und zugeordnete Steuerbuchungen von ISINs ohne heutigen Restbestand."
+        },
+        {
+          "key": "unallocated_taxes",
+          "label": "Separate Steuerbuchungen ohne ISIN",
+          "value": 678.2,
+          "explanation": "Diese Buchungen gehören zum Gesamtergebnis, sind aber keiner Einzelposition zugeordnet."
+        },
+        {
+          "key": "rounding",
+          "label": "Rundung der Teilbeträge",
+          "value": 0,
+          "explanation": "Überleitung der auf Cent gerundeten Komponenten auf das gerundete Gesamtergebnis."
+        }
+      ],
+      "result_after_tax": 7973.29,
+      "arithmetic_difference": 0,
+      "complete": true
+    },
+    "remaining_cost_basis": 116225.02,
+    "unrealized_gain": 7013,
+    "realized_sales": -12817.74,
+    "dividends_after_tax": 13099.82,
+    "separate_tax_bookings": 678.2,
+    "booked_result": 282.08,
+    "result_after_tax": 7973.29,
+    "result_before_tax": 15099.72,
+    "tax_effect": 7126.43
+  },
+  "capital": {
+    "net_contributions": 137368.79,
+    "wealth_increase_including_cash": 8426.15,
+    "securities_minus_contributions": -14130.77,
+    "wealth_minus_securities_result": 452.87,
+    "nonsecurity_result": 452.87,
+    "result_including_cash_income": 8426.16,
+    "unreconciled_difference": 0,
+    "cashflow_reconciliation": {
+      "status": "arithmetic_reconciled_balances_unconfirmed",
+      "arithmetic_reconciled": true,
+      "balances_confirmed": false,
+      "historical_performance_verified": false,
+      "components": [
+        {
+          "source": "scalable",
+          "type": "interest",
+          "bookings": 18,
+          "amount": 377.42,
+          "from": "2023-09-28",
+          "through": "2026-04-01"
+        },
+        {
+          "source": "savings",
+          "type": "interest",
+          "bookings": 5,
+          "amount": 215.04,
+          "from": "2026-06-01",
+          "through": "2026-10-01"
+        },
+        {
+          "source": "trade-republic",
+          "type": "interest",
+          "bookings": 1,
+          "amount": 0.02,
+          "from": "2026-09-01",
+          "through": "2026-09-01"
+        },
+        {
+          "source": "scalable",
+          "type": "account_fees",
+          "bookings": 39,
+          "amount": -194.61,
+          "from": "2023-08-24",
+          "through": "2026-10-10"
+        },
+        {
+          "source": "scalable",
+          "type": "bonus",
+          "bookings": 2,
+          "amount": 45,
+          "from": "2022-06-01",
+          "through": "2024-09-03"
+        },
+        {
+          "source": "trade-republic",
+          "type": "bonus",
+          "bookings": 1,
+          "amount": 10,
+          "from": "2026-08-20",
+          "through": "2026-08-20"
+        }
+      ],
+      "cash_balances": {
+        "scalable": 6.92,
+        "trade_republic": 0,
+        "savings": 22550
+      },
+      "cash_balance_basis": "reconstructed_from_imported_ledgers",
+      "opening_cash_assumption": 0,
+      "scalable_cash_bridge": {
+        "cash_bookings": 129059.78,
+        "signed_trades_after_fees_and_taxes": -129052.86,
+        "balance": 6.92,
+        "ignored_security_transfers": 24,
+        "explanation": "Signierte Cashbuchungen plus Käufe, Verkäufe und Wiederanlagen nach Gebühren/Steuern. Depotüberträge und Kapitalmaßnahmen sind keine Cashbewegungen; deren Bewertungsbeträge werden nicht addiert."
+      },
+      "internal_transfers": {
+        "matching": "exact_cents_unique_counterpart_within_3_days",
+        "excluded_pairs": [],
+        "rejected_amount_mismatches": [
+          {
+            "date_in": "2026-09-15",
+            "date_out": "2026-09-15",
+            "from": "trade-republic",
+            "to": "savings",
+            "incoming": 5000,
+            "outgoing": -5123.86,
+            "difference": -123.86,
+            "treatment": "Kein interner Ausgleich: Beträge stimmen nicht auf den Cent überein. Beide Geldflüsse bleiben in den Nettoeinzahlungen enthalten."
+          }
+        ]
+      },
+      "issues": [],
+      "explanation": "Die importierten Buchungen sind rechnerisch übergeleitet. Kontosalden sind aus der Historie mit Anfangssaldo 0 rekonstruiert und nicht mit unabhängigen Kontoauszügen bestätigt. Das ist keine vollständig geprüfte historische Rendite."
+    }
+  },
+  "quality": {
+    "complete": true,
+    "data_complete": true,
+    "quotes_fresh": true,
+    "max_quote_age_days": 3,
+    "stale_quote_isins": [],
+    "unverified_quote_isins": [],
+    "missing_quote_isins": [],
+    "quote_quality": [
+      {
+        "isin": "GB00BLD4ZL17",
+        "name": "CoinShares Physical Bitcoin",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T12:44:20.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "SGXZ69436764",
+        "name": "BW LPG LTD.",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T14:40:53.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE00BK5BQT80",
+        "name": "Vanguard FTSE All-World (Acc)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T16:37:44.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE00BKM4GZ66",
+        "name": "iShares Core MSCI Emerging Markets IMI (Acc)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T16:24:52.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "JE00BN2CJ301",
+        "name": "WisdomTree Core Physical Gold",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T16:15:01.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE000KJPDY61",
+        "name": "iShares World Equity High Income (Dist)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T16:53:11.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE0008BA4TY1",
+        "name": "Rex Crypto Equity Income & Growth (Dist)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T15:51:08.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE000VAHT5T0",
+        "name": "Vanguard FTSE Global All-Cap (Acc)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T15:35:17.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE000T8QD852",
+        "name": "YieldMax Semiconductor Option Income (Dist)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T15:51:04.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      },
+      {
+        "isin": "IE000HF69TA9",
+        "name": "Rex Tech Innovation Premium Income (Dist)",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-23T16:15:01.000Z",
+        "date": "2026-10-23",
+        "max_age_days": 3,
+        "timestamp_verified": true,
+        "fx_age_days": 0
+      }
+    ],
+    "booking_issues": [],
+    "forecast_available": true,
+    "cashflow_reconciliation": "arithmetic_reconciled_balances_unconfirmed",
+    "historical_performance_verified": false
+  },
+  "definitions": {
+    "cash_balance": "Scalable-Broker-Cash aus signierten Cash- und Handelsbuchungen + Trade-Republic-Cashsaldo + Tagesgeldsaldo. Keine Addition von Handelsvolumen. Anfangssaldo 0 als Annahme; keine externe Saldenbestätigung.",
+    "unreconciled_difference": "Vermögenszuwachs inklusive aller rekonstruierten Cashsalden minus Wertpapierergebnis minus gebuchte Nettozinsen/Boni/Kontogebühren. Null bedeutet rechnerische Übereinstimmung, keine extern geprüfte historische Performance.",
+    "result_bridge": "Heute offene ISINs + heute geschlossene ISINs + Steuerbuchungen ohne ISIN + Rundung = gesamtes Wertpapierergebnis nach Steuern. Die Einzelpositionen umfassen auch vergangene Zahlungen derselben ISIN.",
+    "quote_freshness": "complete ist nur bei vollständigen Buchungen, vorhandenen Kursen und quotes_fresh=true erfüllt. Veraltet: mehr als drei Kalendertage zwischen Preisdatum und Bewertungsdatum. Alter wird am Preiszeitpunkt gemessen, nicht am Abruf. Ältere TradingView-Schnappschüsse ohne belegten Preiszeitpunkt sind timestamp_unverified. Gespeicherte Bewertungen bleiben sichtbar und sind bei quotes_fresh=false nicht als marktaktuell bestätigt.",
+    "result_after_tax": "Offener Kursgewinn + realisierte Verkäufe + Ausschüttungen nach Steuern + separate Steuerbuchungen. Ordergebühren enthalten; Zinsen und separate Kontogebühren ausgeschlossen.",
+    "wealth_increase_including_cash": "Wertpapiere + Cash/Tagesgeld − erkannte Nettoeinzahlungen. Zusätzlich zum Wertpapierergebnis sind gebuchte Nettozinsen, Boni und separate Kontogebühren enthalten. Kontosalden sind rekonstruiert, nicht unabhängig bestätigt.",
+    "quotes": "Letzte zentral gespeicherte EUR-Kurse; ein Abruf dieses Endpunkts aktualisiert keine Börsenkurse.",
+    "forecast": "Geschätzte Ausschüttungen für den aktuellen Bestand auf derselben Grundlage wie im Dashboard. Keine garantierte Zahlung.",
+    "null_values": "Fehlende oder unvollständig berechenbare Werte werden als null ausgegeben."
+  },
+  "links": {
+    "summary": "/api/public/summary",
+    "positions": "/api/public/positions",
+    "purchases": "/api/public/purchases",
+    "positions_including_closed": "/api/public/positions?include_closed=true"
+  },
+  "delivery": {
+    "type": "public_snapshot",
+    "copied_at": "2026-10-23T20:37:35.434Z",
+    "automatic_refresh_enabled": false,
+    "scheduled_refresh_minutes": 15,
+    "stale_after_seconds": 3600,
+    "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
+    "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
+  }
+}

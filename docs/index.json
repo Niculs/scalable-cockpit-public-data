@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "delivery": {
+    "type": "public_snapshot",
+    "copied_at": "2026-10-23T20:37:35.434Z",
+    "automatic_refresh_enabled": false,
+    "scheduled_refresh_minutes": 15,
+    "stale_after_seconds": 3600,
+    "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
+    "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
+  },
+  "endpoints": {
+    "summary": "summary.json",
+    "positions": "positions.json",
+    "purchases": "purchases.json",
+    "all": "all.json"
+  }
+}
