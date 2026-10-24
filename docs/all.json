@@ -2,7 +2,7 @@
   "schema_version": 1,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-24T12:04:17.993Z",
+    "copied_at": "2026-10-24T15:51:30.845Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -11,7 +11,7 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-10-24T12:04:17.070Z",
+    "generated_at": "2026-10-24T15:51:29.849Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
@@ -480,7 +480,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-10-24T12:04:17.511Z",
+    "generated_at": "2026-10-24T15:51:30.331Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -1649,7 +1649,7 @@
   },
   "purchases": {
     "schema_version": 1,
-    "generated_at": "2026-10-24T12:04:17.937Z",
+    "generated_at": "2026-10-24T15:51:30.765Z",
     "currency": "EUR",
     "scope": "historical_purchases_gold_rex_crypto_rex_tech_yieldmax",
     "filters": {
