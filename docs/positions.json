@@ -34,7 +34,7 @@
     "arithmetic_difference": 0,
     "complete": true
   },
-  "generated_at": "2026-10-24T18:24:52.514Z",
+  "generated_at": "2026-10-24T21:08:41.900Z",
   "currency": "EUR",
   "scope": "all_brokers",
   "filters": {
@@ -1202,7 +1202,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-24T18:24:52.871Z",
+    "copied_at": "2026-10-24T21:08:42.374Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
