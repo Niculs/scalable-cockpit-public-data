@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T01:32:16.790Z",
+  "generated_at": "2026-10-25T06:44:46.964Z",
   "currency": "EUR",
   "scope": "historical_purchases_gold_rex_crypto_rex_tech_yieldmax",
   "filters": {
@@ -724,7 +724,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-25T01:32:16.844Z",
+    "copied_at": "2026-10-25T06:44:47.007Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
