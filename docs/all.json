@@ -2,7 +2,7 @@
   "schema_version": 1,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-25T21:43:31.754Z",
+    "copied_at": "2026-10-25T23:37:04.013Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -11,7 +11,7 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-10-25T21:43:30.828Z",
+    "generated_at": "2026-10-25T23:37:02.967Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
@@ -46,7 +46,7 @@
       },
       "dividends_next_month": {
         "period": "2026-11",
-        "estimated_value": 352.25,
+        "estimated_value": 339.4,
         "is_forecast": true,
         "amount_status": "estimated",
         "components": [
@@ -104,7 +104,7 @@
           {
             "isin": "IE000T8QD852",
             "name": "YieldMax Semiconductor Option Income (Dist)",
-            "estimated_value": 107.6,
+            "estimated_value": 94.75,
             "amount_status": "estimated",
             "basis": [
               {
@@ -296,12 +296,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T12:44:20.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         },
         {
           "isin": "SGXZ69436764",
@@ -309,12 +309,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T14:40:53.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         },
         {
           "isin": "IE00BK5BQT80",
@@ -322,12 +322,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T16:37:44.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         },
         {
           "isin": "IE00BKM4GZ66",
@@ -335,12 +335,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T16:24:52.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         },
         {
           "isin": "JE00BN2CJ301",
@@ -348,12 +348,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         },
         {
           "isin": "IE000KJPDY61",
@@ -361,7 +361,7 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T16:53:11.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
@@ -374,7 +374,7 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T15:51:08.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
@@ -387,12 +387,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T15:35:17.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         },
         {
           "isin": "IE000T8QD852",
@@ -400,7 +400,7 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T15:51:04.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
@@ -413,12 +413,12 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
+          "age_days": 3,
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
           "max_age_days": 3,
           "timestamp_verified": true,
-          "fx_age_days": 2
+          "fx_age_days": 3
         }
       ],
       "booking_issues": [],
@@ -480,7 +480,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-10-25T21:43:31.267Z",
+    "generated_at": "2026-10-25T23:37:03.511Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -514,7 +514,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:37:44.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -535,8 +535,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 0,
             "payments": 0
           },
@@ -609,7 +609,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:24:52.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -630,8 +630,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 0,
             "payments": 0
           },
@@ -704,7 +704,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -725,8 +725,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 0,
             "payments": 0
           },
@@ -799,7 +799,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:53:11.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -820,8 +820,8 @@
         "dividends": {
           "payments": 1,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 91.09,
             "payments": 1
           },
@@ -919,7 +919,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:08.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -940,8 +940,8 @@
         "dividends": {
           "payments": 2,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 207.63,
             "payments": 2
           },
@@ -1039,7 +1039,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1060,8 +1060,8 @@
         "dividends": {
           "payments": 2,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 111.61,
             "payments": 2
           },
@@ -1159,7 +1159,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:04.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1180,8 +1180,8 @@
         "dividends": {
           "payments": 3,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 81.5,
             "payments": 3
           },
@@ -1191,11 +1191,11 @@
           },
           "forecast": {
             "available": true,
-            "annual_estimate": 1398.8,
-            "annual_yield_percent": 46.48,
+            "annual_estimate": 1231.75,
+            "annual_yield_percent": 40.93,
             "next_month": {
               "period": "2026-11",
-              "estimated_value": 107.6,
+              "estimated_value": 94.75,
               "payments": [
                 {
                   "broker": "scalable",
@@ -1204,7 +1204,7 @@
                   "ex_date": "2026-11-02",
                   "schedule_status": "issuer_published",
                   "source_amount_announced": false,
-                  "estimated_value": 26.9,
+                  "estimated_value": 23.69,
                   "amount_status": "estimated",
                   "after_tax": true
                 },
@@ -1215,7 +1215,7 @@
                   "ex_date": "2026-11-09",
                   "schedule_status": "issuer_published",
                   "source_amount_announced": false,
-                  "estimated_value": 26.9,
+                  "estimated_value": 23.69,
                   "amount_status": "estimated",
                   "after_tax": true
                 },
@@ -1226,7 +1226,7 @@
                   "ex_date": "2026-11-16",
                   "schedule_status": "issuer_published",
                   "source_amount_announced": false,
-                  "estimated_value": 26.9,
+                  "estimated_value": 23.69,
                   "amount_status": "estimated",
                   "after_tax": true
                 },
@@ -1237,7 +1237,7 @@
                   "ex_date": "2026-11-23",
                   "schedule_status": "issuer_published",
                   "source_amount_announced": false,
-                  "estimated_value": 26.9,
+                  "estimated_value": 23.69,
                   "amount_status": "estimated",
                   "after_tax": true
                 }
@@ -1255,9 +1255,9 @@
                 "method": "last_booked_payment_scaled",
                 "last_booked_payment_date": "2026-10-23",
                 "reference_payment": {
-                  "ex_date": "2026-10-19",
-                  "payment_date": "2026-10-23",
-                  "source_amount": 0.4572,
+                  "ex_date": "2026-10-26",
+                  "payment_date": "2026-10-30",
+                  "source_amount": 0.4026,
                   "source_currency": "USD"
                 },
                 "payments_per_year": 52,
@@ -1312,7 +1312,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T12:44:20.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1333,8 +1333,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 0,
             "payments": 0
           },
@@ -1407,7 +1407,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T14:40:53.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1428,8 +1428,8 @@
         "dividends": {
           "payments": 13,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 326.95,
             "payments": 3
           },
@@ -1528,7 +1528,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:35:17.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1549,8 +1549,8 @@
         "dividends": {
           "payments": 0,
           "last_12_months": {
-            "from": "2025-10-25",
-            "to": "2026-10-25",
+            "from": "2025-10-26",
+            "to": "2026-10-26",
             "value": 0,
             "payments": 0
           },
@@ -1649,7 +1649,7 @@
   },
   "purchases": {
     "schema_version": 1,
-    "generated_at": "2026-10-25T21:43:31.712Z",
+    "generated_at": "2026-10-25T23:37:03.946Z",
     "currency": "EUR",
     "scope": "historical_purchases_gold_rex_crypto_rex_tech_yieldmax",
     "filters": {
@@ -1689,7 +1689,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1717,7 +1717,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:08.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1745,7 +1745,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T16:15:01.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
@@ -1773,7 +1773,7 @@
           "currency": "EUR",
           "as_of": "2026-10-23T15:51:04.000Z",
           "date": "2026-10-23",
-          "age_days": 2,
+          "age_days": 3,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
