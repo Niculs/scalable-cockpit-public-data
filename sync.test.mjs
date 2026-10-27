@@ -16,6 +16,10 @@ test('preserve the original financial payload and count',()=>{
  assert.strictEqual(validate('summary',{generated_at,overview:{},quality:{}}).generated_at,generated_at);
  assert.equal(validate('purchases',{generated_at,count:0,purchases:[]}).count,0);
 });
+test('reject a paginated partial history instead of marking it complete',()=>{
+ assert.throws(()=>validate('transactions',{generated_at,count:100,total_count:1200,transactions:Array(100).fill({}),pagination:{has_more:true}}),/Partial transaction export/);
+ assert.equal(validate('transactions',{generated_at,count:1,total_count:1,transactions:[{isin:null,type:'tax'}],pagination:{has_more:false}}).count,1);
+});
 test('a failed source response preserves the last publication',async()=>{
  const directory=await fs.mkdtemp(path.join(os.tmpdir(),'portfolio-json-check-'));
  await fs.writeFile(path.join(directory,'positions.json'),'last successful copy');

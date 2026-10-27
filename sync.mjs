@@ -1,12 +1,13 @@
 import fs from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
 const origin='https://scalable-cockpit.iku68.chatgpt.site';
-export const kinds=['summary','positions','purchases'];
+export const kinds=['summary','positions','purchases','transactions'];
 export function validate(kind,value){
  if(!value||typeof value!=='object'||Array.isArray(value)||!Number.isFinite(Date.parse(value.generated_at)))throw Error('Invalid '+kind+' response');
  if(kind==='summary'&&(!value.overview||!value.quality))throw Error('Missing summary data');
  if(kind!=='summary'&&(!Array.isArray(value[kind])||value.count!==value[kind].length))throw Error('Invalid '+kind+' count');
  if(kind==='positions'&&value.positions.some(p=>!p.isin))throw Error('Missing position identifier');
+ if(kind==='transactions'&&(value.pagination?.has_more!==false||value.total_count!==value.count))throw Error('Partial transaction export must not replace complete history');
  return value;
 }
 export async function collect(fetcher=fetch){
@@ -24,6 +25,11 @@ export async function collect(fetcher=fetch){
   }
   if(error)throw error;
  }
+ const revisions=new Map();
+ for(const report of Object.values(result))for(const [broker,state] of Object.entries(report.data_as_of?.broker_imports||{})){
+  if(revisions.has(broker)&&revisions.get(broker)!==state.revision)throw Error('Broker import changed during publication: '+broker);
+  revisions.set(broker,state.revision);
+ }
  return result;
 }
 export async function publish(directory='public',fetcher=fetch){
@@ -36,12 +42,12 @@ export async function publish(directory='public',fetcher=fetch){
   await fs.mkdir(directory+'/api/public/'+kind,{recursive:true});
   await fs.writeFile(directory+'/api/public/'+kind+'/index.html',JSON.stringify(value,null,2)+'\n');
  }
- const bundle={schema_version:1,delivery,...reports};
+ const bundle={schema_version:2,delivery,...reports};
  await fs.writeFile(directory+'/all.json',JSON.stringify(bundle,null,2)+'\n');
- await fs.writeFile(directory+'/index.json',JSON.stringify({schema_version:1,delivery,endpoints:{summary:'summary.json',positions:'positions.json',purchases:'purchases.json',all:'all.json'}},null,2)+'\n');
+ await fs.writeFile(directory+'/index.json',JSON.stringify({schema_version:2,delivery,endpoints:{summary:'summary.json',positions:'positions.json',purchases:'purchases.json',transactions:'transactions.json',all:'all.json'}},null,2)+'\n');
  await fs.writeFile(directory+'/index.html','<!doctype html><html lang="de"><meta charset="utf-8"><title>Scalable Cockpit – öffentliche JSON-Daten</title><h1>Öffentliche JSON-Daten</h1><p>Stand der Kopie: '+copiedAt+'</p><p>Automatische Aktualisierung alle 15 Minuten vorgesehen. Zeitplanläufe können sich verzögern. Datenzeitstempel stehen in jeder JSON-Datei.</p><ul>'+kinds.concat('all').map(kind=>'<li><a href="'+kind+'.json">'+kind+'.json</a></li>').join('')+'</ul></html>');
  await fs.writeFile(directory+'/.nojekyll','');
  await fs.writeFile(directory+'/robots.txt','User-agent: *\nAllow: /\n');
- console.log(JSON.stringify({copied_at:copiedAt,positions:reports.positions.count,purchases:reports.purchases.count}));
+ console.log(JSON.stringify({copied_at:copiedAt,positions:reports.positions.count,purchases:reports.purchases.count,transactions:reports.transactions.count}));
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)await publish(process.argv[2]||'public');
