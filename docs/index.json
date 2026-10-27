@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-27T08:20:05.974Z",
+    "copied_at": "2026-10-27T12:10:11.483Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -13,6 +13,7 @@
     "summary": "summary.json",
     "positions": "positions.json",
     "purchases": "purchases.json",
+    "transactions": "transactions.json",
     "all": "all.json"
   }
 }
