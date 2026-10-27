@@ -8,4 +8,6 @@ The publisher validates all four source responses and matching broker revisions 
 
 `transactions.json` contains the entire imported broker history without pagination. The MCP tool `get_portfolio_transactions` returns 100 rows by default; follow `pagination.next_offset` until `has_more` is false. Available filters include ISIN, broker, transaction type, dates and virtual depot. Virtual depot assignments are current/remembered preferences, not historically verified membership. Do not interpret the first purchase of an assigned ISIN as an independently verified depot start. BW LPG has linked earlier ISINs documented in `corporate_action_links`.
 
+For web readers that cannot fetch the large complete export, start with `transactions/index.json`. It links small files at `transactions/by-isin/<ISIN>.json`, `transactions/unallocated.json` and pages of at most 100 rows at `transactions/pages/0000.json` onward. Reading all indexed pages covers every imported transaction, including rows without an ISIN.
+
 Run `node --test sync.test.mjs` and `node sync.mjs` with the preinstalled Node runtime. Only the generated `public/` folder is published through GitHub Pages.

@@ -10,6 +10,24 @@ export function validate(kind,value){
  if(kind==='transactions'&&(value.pagination?.has_more!==false||value.total_count!==value.count))throw Error('Partial transaction export must not replace complete history');
  return value;
 }
+export function transactionViews(report,delivery){
+ const files={},size=100,rows=report.transactions;
+ const ids=[...new Set(rows.map(r=>r.isin).filter(Boolean))].sort();
+ if(ids.some(id=>!/^[A-Z]{2}[A-Z0-9]{9}[0-9]$/.test(id)))throw Error('Invalid transaction ISIN');
+ const pageNames=[];
+ const context={schema_version:1,generated_at:report.generated_at,data_as_of:report.data_as_of,delivery,quality:report.quality};
+ for(let offset=0;offset<rows.length;offset+=size){
+  const name='pages/'+String(offset/size).padStart(4,'0')+'.json',page=rows.slice(offset,offset+size);pageNames.push(name);
+  files[name]={...context,count:page.length,total_count:rows.length,pagination:{offset,limit:size,has_more:offset+page.length<rows.length,next_offset:offset+page.length<rows.length?offset+page.length:null},transactions:page};
+ }
+ for(const isin of ids){
+  const selected=rows.filter(r=>r.isin===isin),instrument=report.instruments.find(r=>r.isin===isin);
+  files['by-isin/'+isin+'.json']={...context,isin,count:selected.length,instrument,corporate_action_links:report.corporate_action_links.filter(link=>link.from_isin===isin||link.to_isin===isin),transactions:selected,related_histories:(instrument?.related_isins||[]).map(id=>id+'.json')};
+ }
+ const unallocated=rows.filter(r=>!r.isin);files['unallocated.json']={...context,count:unallocated.length,transactions:unallocated};
+ files['index.json']={...context,total_count:rows.length,securities:ids.length,page_size:size,pages:pageNames,unallocated:'unallocated.json',instruments:report.instruments.map(instrument=>({...instrument,history:'by-isin/'+instrument.isin+'.json'})),depots:report.depots,definitions:report.definitions};
+ return files;
+}
 export async function collect(fetcher=fetch){
  const result={};
  for(const kind of kinds){
@@ -42,9 +60,12 @@ export async function publish(directory='public',fetcher=fetch){
   await fs.mkdir(directory+'/api/public/'+kind,{recursive:true});
   await fs.writeFile(directory+'/api/public/'+kind+'/index.html',JSON.stringify(value,null,2)+'\n');
  }
- const bundle={schema_version:2,delivery,...reports};
+ for(const [name,value] of Object.entries(transactionViews(reports.transactions,delivery))){
+  const file=directory+'/transactions/'+name;await fs.mkdir(file.slice(0,file.lastIndexOf('/')),{recursive:true});await fs.writeFile(file,JSON.stringify(value,null,2)+'\n');
+ }
+ const bundle={schema_version:2,delivery,links:{transaction_index:'transactions/index.json'},...reports};
  await fs.writeFile(directory+'/all.json',JSON.stringify(bundle,null,2)+'\n');
- await fs.writeFile(directory+'/index.json',JSON.stringify({schema_version:2,delivery,endpoints:{summary:'summary.json',positions:'positions.json',purchases:'purchases.json',transactions:'transactions.json',all:'all.json'}},null,2)+'\n');
+ await fs.writeFile(directory+'/index.json',JSON.stringify({schema_version:2,delivery,endpoints:{summary:'summary.json',positions:'positions.json',purchases:'purchases.json',transactions:'transactions.json',transaction_index:'transactions/index.json',all:'all.json'}},null,2)+'\n');
  await fs.writeFile(directory+'/index.html','<!doctype html><html lang="de"><meta charset="utf-8"><title>Scalable Cockpit – öffentliche JSON-Daten</title><h1>Öffentliche JSON-Daten</h1><p>Stand der Kopie: '+copiedAt+'</p><p>Automatische Aktualisierung alle 15 Minuten vorgesehen. Zeitplanläufe können sich verzögern. Datenzeitstempel stehen in jeder JSON-Datei.</p><ul>'+kinds.concat('all').map(kind=>'<li><a href="'+kind+'.json">'+kind+'.json</a></li>').join('')+'</ul></html>');
  await fs.writeFile(directory+'/.nojekyll','');
  await fs.writeFile(directory+'/robots.txt','User-agent: *\nAllow: /\n');
