@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T12:14:33.815Z",
+  "data_as_of": {
+    "broker_imports": {
+      "scalable": {
+        "revision": 10,
+        "updated_at": "2026-10-23T17:40:23.703Z",
+        "source_rows": 1258,
+        "first_date": "2022-03-16",
+        "last_date": "2026-10-23"
+      },
+      "trade-republic": {
+        "revision": 1,
+        "updated_at": "2026-09-18T16:40:00.000Z",
+        "source_rows": 29,
+        "first_date": "2026-08-19",
+        "last_date": "2026-09-17"
+      }
+    },
+    "depot_configuration_revision": 7
+  },
+  "delivery": {
+    "type": "public_snapshot",
+    "copied_at": "2026-10-27T12:14:34.354Z",
+    "automatic_refresh_enabled": true,
+    "scheduled_refresh_minutes": 15,
+    "stale_after_seconds": 3600,
+    "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
+    "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
+  },
+  "quality": {
+    "complete": true,
+    "source_rows": 1287,
+    "exported_rows_before_filters": 1287,
+    "invalid_rows": [],
+    "unsupported_source_types": [],
+    "depot_configuration_available": true,
+    "historical_depot_assignments_verified": false,
+    "history_before_imported_records_verified": false
+  },
+  "isin": "IE00BKSCBX74",
+  "count": 3,
+  "instrument": {
+    "isin": "IE00BKSCBX74",
+    "name": "UBS (Irl) ETF plc - MSCI World Small Cap Socially Responsible UCITS ETF (USD) A-acc",
+    "first_documented_transaction": "2022-03-17",
+    "first_documented_purchase": "2022-03-17",
+    "last_documented_transaction": "2023-12-21",
+    "first_documented_purchase_in_linked_isins": "2022-03-17",
+    "related_isins": [],
+    "transaction_count": 3,
+    "purchases": 2,
+    "sales": 1,
+    "dividend_payments": 0
+  },
+  "corporate_action_links": [],
+  "transactions": [
+    {
+      "id": "scalable:10:4",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 4,
+      "date": "2022-03-17",
+      "time": "19:09:14",
+      "type": "buy",
+      "isin": "IE00BKSCBX74",
+      "name": "UBS (Irl) ETF plc - MSCI World Small Cap Socially Responsible UCITS ETF (USD) A-acc",
+      "currency": "EUR",
+      "shares": 28,
+      "quantity_delta": 28,
+      "unit_price": 8.686,
+      "booked_amount": -243.208,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -243.208,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    },
+    {
+      "id": "scalable:10:10",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 10,
+      "date": "2022-03-22",
+      "time": "14:28:59",
+      "type": "buy",
+      "isin": "IE00BKSCBX74",
+      "name": "UBS (Irl) ETF plc - MSCI World Small Cap Socially Responsible UCITS ETF (USD) A-acc",
+      "currency": "EUR",
+      "shares": 14,
+      "quantity_delta": 14,
+      "unit_price": 8.762,
+      "booked_amount": -122.668,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -122.668,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    },
+    {
+      "id": "scalable:10:58",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 58,
+      "date": "2023-12-21",
+      "time": "15:01:21",
+      "type": "sell",
+      "isin": "IE00BKSCBX74",
+      "name": "UBS (Irl) ETF plc - MSCI World Small Cap Socially Responsible UCITS ETF (USD) A-acc",
+      "currency": "EUR",
+      "shares": 42,
+      "quantity_delta": -42,
+      "unit_price": 8.738,
+      "booked_amount": 366.996,
+      "fees": 0,
+      "taxes": 0.21,
+      "cash_flow": 366.786,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    }
+  ],
+  "related_histories": []
+}

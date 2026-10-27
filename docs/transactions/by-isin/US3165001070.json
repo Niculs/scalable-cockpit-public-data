@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T12:14:33.815Z",
+  "data_as_of": {
+    "broker_imports": {
+      "scalable": {
+        "revision": 10,
+        "updated_at": "2026-10-23T17:40:23.703Z",
+        "source_rows": 1258,
+        "first_date": "2022-03-16",
+        "last_date": "2026-10-23"
+      },
+      "trade-republic": {
+        "revision": 1,
+        "updated_at": "2026-09-18T16:40:00.000Z",
+        "source_rows": 29,
+        "first_date": "2026-08-19",
+        "last_date": "2026-09-17"
+      }
+    },
+    "depot_configuration_revision": 7
+  },
+  "delivery": {
+    "type": "public_snapshot",
+    "copied_at": "2026-10-27T12:14:34.354Z",
+    "automatic_refresh_enabled": true,
+    "scheduled_refresh_minutes": 15,
+    "stale_after_seconds": 3600,
+    "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
+    "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
+  },
+  "quality": {
+    "complete": true,
+    "source_rows": 1287,
+    "exported_rows_before_filters": 1287,
+    "invalid_rows": [],
+    "unsupported_source_types": [],
+    "depot_configuration_available": true,
+    "historical_depot_assignments_verified": false,
+    "history_before_imported_records_verified": false
+  },
+  "isin": "US3165001070",
+  "count": 2,
+  "instrument": {
+    "isin": "US3165001070",
+    "name": "Fidus Investment Corp",
+    "first_documented_transaction": "2025-01-06",
+    "first_documented_purchase": "2025-01-06",
+    "last_documented_transaction": "2025-01-08",
+    "first_documented_purchase_in_linked_isins": "2025-01-06",
+    "related_isins": [],
+    "transaction_count": 2,
+    "purchases": 1,
+    "sales": 1,
+    "dividend_payments": 0
+  },
+  "corporate_action_links": [],
+  "transactions": [
+    {
+      "id": "scalable:10:638",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 638,
+      "date": "2025-01-06",
+      "time": "08:27:59",
+      "type": "buy",
+      "isin": "US3165001070",
+      "name": "Fidus Investment Corp",
+      "currency": "EUR",
+      "shares": 70,
+      "quantity_delta": 70,
+      "unit_price": 21,
+      "booked_amount": -1470,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -1470,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    },
+    {
+      "id": "scalable:10:642",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 642,
+      "date": "2025-01-08",
+      "time": "08:14:52",
+      "type": "sell",
+      "isin": "US3165001070",
+      "name": "Fidus Investment Corp",
+      "currency": "EUR",
+      "shares": 70,
+      "quantity_delta": -70,
+      "unit_price": 20.2,
+      "booked_amount": 1414,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": 1414,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    }
+  ],
+  "related_histories": []
+}

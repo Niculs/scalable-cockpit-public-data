@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T12:14:33.815Z",
+  "data_as_of": {
+    "broker_imports": {
+      "scalable": {
+        "revision": 10,
+        "updated_at": "2026-10-23T17:40:23.703Z",
+        "source_rows": 1258,
+        "first_date": "2022-03-16",
+        "last_date": "2026-10-23"
+      },
+      "trade-republic": {
+        "revision": 1,
+        "updated_at": "2026-09-18T16:40:00.000Z",
+        "source_rows": 29,
+        "first_date": "2026-08-19",
+        "last_date": "2026-09-17"
+      }
+    },
+    "depot_configuration_revision": 7
+  },
+  "delivery": {
+    "type": "public_snapshot",
+    "copied_at": "2026-10-27T12:14:34.354Z",
+    "automatic_refresh_enabled": true,
+    "scheduled_refresh_minutes": 15,
+    "stale_after_seconds": 3600,
+    "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
+    "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
+  },
+  "quality": {
+    "complete": true,
+    "source_rows": 1287,
+    "exported_rows_before_filters": 1287,
+    "invalid_rows": [],
+    "unsupported_source_types": [],
+    "depot_configuration_available": true,
+    "historical_depot_assignments_verified": false,
+    "history_before_imported_records_verified": false
+  },
+  "isin": "DE000EVNK013",
+  "count": 3,
+  "instrument": {
+    "isin": "DE000EVNK013",
+    "name": "Evonik Industries",
+    "first_documented_transaction": "2024-01-25",
+    "first_documented_purchase": "2024-01-25",
+    "last_documented_transaction": "2024-03-12",
+    "first_documented_purchase_in_linked_isins": "2024-01-25",
+    "related_isins": [],
+    "transaction_count": 3,
+    "purchases": 2,
+    "sales": 1,
+    "dividend_payments": 0
+  },
+  "corporate_action_links": [],
+  "transactions": [
+    {
+      "id": "scalable:10:93",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 93,
+      "date": "2024-01-25",
+      "time": "19:18:15",
+      "type": "buy",
+      "isin": "DE000EVNK013",
+      "name": "Evonik Industries",
+      "currency": "EUR",
+      "shares": 50,
+      "quantity_delta": 50,
+      "unit_price": 17.22,
+      "booked_amount": -861,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -861,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    },
+    {
+      "id": "scalable:10:122",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 122,
+      "date": "2024-02-27",
+      "time": "18:59:39",
+      "type": "buy",
+      "isin": "DE000EVNK013",
+      "name": "Evonik Industries",
+      "currency": "EUR",
+      "shares": 50,
+      "quantity_delta": 50,
+      "unit_price": 17.21,
+      "booked_amount": -860.5,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -860.5,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    },
+    {
+      "id": "scalable:10:159",
+      "broker": "scalable",
+      "source_revision": 10,
+      "source_row": 159,
+      "date": "2024-03-12",
+      "time": "21:29:38",
+      "type": "sell",
+      "isin": "DE000EVNK013",
+      "name": "Evonik Industries",
+      "currency": "EUR",
+      "shares": 100,
+      "quantity_delta": -100,
+      "unit_price": 17.225,
+      "booked_amount": 1722.5,
+      "fees": 0,
+      "taxes": 0.26,
+      "cash_flow": 1722.24,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    }
+  ],
+  "related_histories": []
+}

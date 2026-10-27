@@ -2,16 +2,19 @@
   "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-27T12:10:11.483Z",
+    "copied_at": "2026-10-27T12:14:34.354Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
     "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
     "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
   },
+  "links": {
+    "transaction_index": "transactions/index.json"
+  },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-10-27T12:10:09.646Z",
+    "generated_at": "2026-10-27T12:14:32.515Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
@@ -492,7 +495,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-10-27T12:10:10.249Z",
+    "generated_at": "2026-10-27T12:14:33.002Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -1673,7 +1676,7 @@
   },
   "purchases": {
     "schema_version": 2,
-    "generated_at": "2026-10-27T12:10:10.879Z",
+    "generated_at": "2026-10-27T12:14:33.450Z",
     "currency": "EUR",
     "scope": "historical_purchases_all_imported_securities",
     "filters": {
@@ -13709,7 +13712,7 @@
   },
   "transactions": {
     "schema_version": 1,
-    "generated_at": "2026-10-27T12:10:11.307Z",
+    "generated_at": "2026-10-27T12:14:33.815Z",
     "scope": "all_imported_broker_transactions_including_closed_securities_and_unallocated_cash",
     "filters": {
       "isin": null,
