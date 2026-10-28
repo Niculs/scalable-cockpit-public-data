@@ -2,7 +2,7 @@
   "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-28T15:56:24.936Z",
+    "copied_at": "2026-10-28T20:58:22.160Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
