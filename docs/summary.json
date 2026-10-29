@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-29T13:40:02.246Z",
+  "generated_at": "2026-10-29T19:16:59.206Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
     "bookings_through": "2026-10-23",
-    "quotes_earliest": "2026-10-23T12:44:20.000Z",
-    "quotes_latest": "2026-10-23T16:53:11.000Z",
-    "dividend_reference_checked_at": "2026-10-27T12:04:16.041Z",
+    "quotes_earliest": "2026-10-29T15:42:03.000Z",
+    "quotes_latest": "2026-10-29T18:37:53.000Z",
+    "dividend_reference_checked_at": "2026-10-29T19:13:43.829Z",
     "broker_imports": {
       "scalable": {
         "revision": 10,
@@ -22,9 +22,9 @@
     }
   },
   "overview": {
-    "securities_value": 123238.02,
+    "securities_value": 124756.21,
     "cash_balance": 22556.92,
-    "total_wealth": 145794.94,
+    "total_wealth": 147313.13,
     "positions": 10,
     "dividends_total": 13099.82,
     "dividend_payments": 128,
@@ -35,7 +35,7 @@
     },
     "dividends_next_month": {
       "period": "2026-11",
-      "estimated_value": 339.4,
+      "estimated_value": 338.54,
       "is_forecast": true,
       "amount_status": "estimated",
       "components": [
@@ -52,7 +52,7 @@
               "after_tax": true,
               "payments_per_year": 4,
               "weekly_estimate": false,
-              "source_checked_at": "2026-10-27T12:04:16.041Z"
+              "source_checked_at": "2026-10-29T19:13:43.829Z"
             }
           ]
         },
@@ -69,7 +69,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-10-27T12:04:16.041Z"
+              "source_checked_at": "2026-10-29T19:13:43.829Z"
             }
           ]
         },
@@ -86,14 +86,14 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-10-27T12:04:16.041Z"
+              "source_checked_at": "2026-10-29T19:13:43.829Z"
             }
           ]
         },
         {
           "isin": "IE000T8QD852",
           "name": "YieldMax Semiconductor Option Income (Dist)",
-          "estimated_value": 94.75,
+          "estimated_value": 93.89,
           "amount_status": "estimated",
           "basis": [
             {
@@ -103,7 +103,7 @@
               "after_tax": true,
               "payments_per_year": 52,
               "weekly_estimate": true,
-              "source_checked_at": "2026-10-27T12:04:16.041Z"
+              "source_checked_at": "2026-10-29T19:13:43.829Z"
             }
           ]
         },
@@ -120,7 +120,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-10-27T12:04:16.041Z"
+              "source_checked_at": "2026-10-29T19:13:43.829Z"
             }
           ]
         }
@@ -137,7 +137,7 @@
         {
           "key": "open_positions",
           "label": "Ergebnis der heute offenen ISINs",
-          "value": 6376.66,
+          "value": 7894.85,
           "explanation": "Offene Kursgewinne plus alle historischen Verkäufe, Ausschüttungen und zugeordneten Steuerbuchungen derselben ISINs. Entspricht dem Standardumfang von /api/public/positions."
         },
         {
@@ -159,27 +159,27 @@
           "explanation": "Überleitung der auf Cent gerundeten Komponenten auf das gerundete Gesamtergebnis."
         }
       ],
-      "result_after_tax": 7973.29,
+      "result_after_tax": 9491.48,
       "arithmetic_difference": 0,
       "complete": true
     },
     "remaining_cost_basis": 116225.02,
-    "unrealized_gain": 7013,
+    "unrealized_gain": 8531.19,
     "realized_sales": -12817.74,
     "dividends_after_tax": 13099.82,
     "separate_tax_bookings": 678.2,
     "booked_result": 282.08,
-    "result_after_tax": 7973.29,
-    "result_before_tax": 15099.72,
+    "result_after_tax": 9491.48,
+    "result_before_tax": 16617.91,
     "tax_effect": 7126.43
   },
   "capital": {
     "net_contributions": 137368.79,
-    "wealth_increase_including_cash": 8426.15,
-    "securities_minus_contributions": -14130.77,
+    "wealth_increase_including_cash": 9944.34,
+    "securities_minus_contributions": -12612.58,
     "wealth_minus_securities_result": 452.87,
     "nonsecurity_result": 452.87,
-    "result_including_cash_income": 8426.16,
+    "result_including_cash_income": 9944.35,
     "unreconciled_difference": 0,
     "cashflow_reconciliation": {
       "status": "arithmetic_reconciled_balances_unconfirmed",
@@ -271,99 +271,88 @@
     }
   },
   "quality": {
-    "complete": false,
+    "complete": true,
     "data_complete": true,
-    "quotes_fresh": false,
+    "quotes_fresh": true,
     "max_quote_age_days": 3,
-    "stale_quote_isins": [
-      "GB00BLD4ZL17",
-      "SGXZ69436764",
-      "IE00BK5BQT80",
-      "IE00BKM4GZ66",
-      "JE00BN2CJ301",
-      "IE000KJPDY61",
-      "IE0008BA4TY1",
-      "IE000VAHT5T0",
-      "IE000T8QD852",
-      "IE000HF69TA9"
-    ],
+    "stale_quote_isins": [],
     "unverified_quote_isins": [],
     "missing_quote_isins": [],
     "quote_quality": [
       {
         "isin": "GB00BLD4ZL17",
         "name": "CoinShares Physical Bitcoin",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T12:44:20.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T17:28:35.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       },
       {
         "isin": "SGXZ69436764",
         "name": "BW LPG LTD.",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T14:40:53.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T15:42:03.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       },
       {
         "isin": "IE00BK5BQT80",
         "name": "Vanguard FTSE All-World (Acc)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T16:37:44.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T18:37:53.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       },
       {
         "isin": "IE00BKM4GZ66",
         "name": "iShares Core MSCI Emerging Markets IMI (Acc)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T16:24:52.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T18:29:29.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       },
       {
         "isin": "JE00BN2CJ301",
         "name": "WisdomTree Core Physical Gold",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T16:15:01.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T16:35:08.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       },
       {
         "isin": "IE000KJPDY61",
         "name": "iShares World Equity High Income (Dist)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T16:53:11.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T18:21:40.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -371,12 +360,12 @@
       {
         "isin": "IE0008BA4TY1",
         "name": "Rex Crypto Equity Income & Growth (Dist)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T15:51:08.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T16:51:02.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -384,25 +373,25 @@
       {
         "isin": "IE000VAHT5T0",
         "name": "Vanguard FTSE Global All-Cap (Acc)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T15:35:17.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T16:35:10.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       },
       {
         "isin": "IE000T8QD852",
         "name": "YieldMax Semiconductor Option Income (Dist)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T15:51:04.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T17:34:16.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -410,15 +399,15 @@
       {
         "isin": "IE000HF69TA9",
         "name": "Rex Tech Innovation Premium Income (Dist)",
-        "status": "stale",
-        "fresh": false,
-        "stale": true,
-        "age_days": 6,
-        "as_of": "2026-10-23T16:15:01.000Z",
-        "date": "2026-10-23",
+        "status": "fresh",
+        "fresh": true,
+        "stale": false,
+        "age_days": 0,
+        "as_of": "2026-10-29T17:15:03.000Z",
+        "date": "2026-10-29",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 6
+        "fx_age_days": 0
       }
     ],
     "booking_issues": [],
@@ -446,7 +435,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-29T13:40:03.465Z",
+    "copied_at": "2026-10-29T19:17:00.466Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
