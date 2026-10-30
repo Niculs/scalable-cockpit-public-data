@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T16:40:43.446Z",
+  "generated_at": "2026-10-30T21:08:32.049Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 11,
-        "updated_at": "2026-10-30T08:47:35.371Z",
-        "source_rows": 1261,
+        "revision": 12,
+        "updated_at": "2026-10-30T20:07:38.898Z",
+        "source_rows": 1262,
         "first_date": "2022-03-16",
         "last_date": "2026-10-30"
       },
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 7
+    "depot_configuration_revision": 8
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-30T16:40:43.532Z",
+    "copied_at": "2026-10-30T21:08:32.142Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,8 +31,8 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1290,
-    "exported_rows_before_filters": 1290,
+    "source_rows": 1291,
+    "exported_rows_before_filters": 1291,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
@@ -57,9 +57,9 @@
   "corporate_action_links": [],
   "transactions": [
     {
-      "id": "scalable:11:937",
+      "id": "scalable:12:937",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 937,
       "date": "2026-01-02",
       "time": "14:22:59",
@@ -81,9 +81,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:11:938",
+      "id": "scalable:12:938",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 938,
       "date": "2026-01-02",
       "time": "14:43:46",
@@ -105,9 +105,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:11:940",
+      "id": "scalable:12:940",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 940,
       "date": "2026-01-02",
       "time": "19:36:36",
@@ -129,9 +129,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:11:944",
+      "id": "scalable:12:944",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 944,
       "date": "2026-01-05",
       "time": "08:25:46",
@@ -153,9 +153,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:11:1166",
+      "id": "scalable:12:1166",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1166,
       "date": "2026-08-31",
       "time": "18:29:09",
@@ -177,9 +177,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:11:1175",
+      "id": "scalable:12:1175",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1175,
       "date": "2026-09-03",
       "time": "07:43:39",

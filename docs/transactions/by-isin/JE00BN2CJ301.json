@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T16:40:43.446Z",
+  "generated_at": "2026-10-30T21:08:32.049Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 11,
-        "updated_at": "2026-10-30T08:47:35.371Z",
-        "source_rows": 1261,
+        "revision": 12,
+        "updated_at": "2026-10-30T20:07:38.898Z",
+        "source_rows": 1262,
         "first_date": "2022-03-16",
         "last_date": "2026-10-30"
       },
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 7
+    "depot_configuration_revision": 8
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-30T16:40:43.532Z",
+    "copied_at": "2026-10-30T21:08:32.142Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,8 +31,8 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1290,
-    "exported_rows_before_filters": 1290,
+    "source_rows": 1291,
+    "exported_rows_before_filters": 1291,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
@@ -57,9 +57,9 @@
   "corporate_action_links": [],
   "transactions": [
     {
-      "id": "scalable:11:1118",
+      "id": "scalable:12:1118",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1118,
       "date": "2026-08-13",
       "time": "09:06:20",
@@ -83,9 +83,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1125",
+      "id": "scalable:12:1125",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1125,
       "date": "2026-08-14",
       "time": "10:49:24",
@@ -109,9 +109,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1139",
+      "id": "scalable:12:1139",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1139,
       "date": "2026-08-21",
       "time": "18:04:30",
@@ -135,9 +135,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1144",
+      "id": "scalable:12:1144",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1144,
       "date": "2026-08-24",
       "time": "21:04:28",
@@ -161,9 +161,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1152",
+      "id": "scalable:12:1152",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1152,
       "date": "2026-08-28",
       "time": "16:16:07",
@@ -187,9 +187,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1157",
+      "id": "scalable:12:1157",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1157,
       "date": "2026-08-31",
       "time": "07:47:37",
@@ -213,9 +213,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1159",
+      "id": "scalable:12:1159",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1159,
       "date": "2026-08-31",
       "time": "07:50:01",
@@ -239,9 +239,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1170",
+      "id": "scalable:12:1170",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1170,
       "date": "2026-09-01",
       "time": "20:04:57",
@@ -265,9 +265,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1184",
+      "id": "scalable:12:1184",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1184,
       "date": "2026-09-07",
       "time": "18:19:31",
@@ -291,9 +291,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1191",
+      "id": "scalable:12:1191",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1191,
       "date": "2026-09-10",
       "time": "21:00:45",
@@ -317,9 +317,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1208",
+      "id": "scalable:12:1208",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1208,
       "date": "2026-09-16",
       "time": "21:19:02",
@@ -343,9 +343,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1231",
+      "id": "scalable:12:1231",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1231,
       "date": "2026-09-28",
       "time": "14:37:55",
@@ -369,9 +369,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1233",
+      "id": "scalable:12:1233",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1233,
       "date": "2026-09-28",
       "time": "16:10:27",
@@ -395,9 +395,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1237",
+      "id": "scalable:12:1237",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1237,
       "date": "2026-09-30",
       "time": "18:11:44",
@@ -421,9 +421,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1255",
+      "id": "scalable:12:1255",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1255,
       "date": "2026-10-22",
       "time": "18:48:20",
@@ -447,9 +447,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:11:1258",
+      "id": "scalable:12:1258",
       "broker": "scalable",
-      "source_revision": 11,
+      "source_revision": 12,
       "source_row": 1258,
       "date": "2026-10-23",
       "time": "16:37:01",
