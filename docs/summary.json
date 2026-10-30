@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T09:53:29.134Z",
+  "generated_at": "2026-10-30T16:40:41.427Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
@@ -435,7 +435,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-30T09:53:29.999Z",
+    "copied_at": "2026-10-30T16:40:43.532Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
