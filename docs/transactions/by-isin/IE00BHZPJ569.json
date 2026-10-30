@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T02:52:55.933Z",
+  "generated_at": "2026-10-30T09:53:29.902Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 10,
-        "updated_at": "2026-10-23T17:40:23.703Z",
-        "source_rows": 1258,
+        "revision": 11,
+        "updated_at": "2026-10-30T08:47:35.371Z",
+        "source_rows": 1261,
         "first_date": "2022-03-16",
-        "last_date": "2026-10-23"
+        "last_date": "2026-10-30"
       },
       "trade-republic": {
         "revision": 1,
@@ -22,7 +22,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-30T02:52:56.009Z",
+    "copied_at": "2026-10-30T09:53:29.999Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,8 +31,8 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1287,
-    "exported_rows_before_filters": 1287,
+    "source_rows": 1290,
+    "exported_rows_before_filters": 1290,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
@@ -57,9 +57,9 @@
   "corporate_action_links": [],
   "transactions": [
     {
-      "id": "scalable:10:2",
+      "id": "scalable:11:2",
       "broker": "scalable",
-      "source_revision": 10,
+      "source_revision": 11,
       "source_row": 2,
       "date": "2022-03-17",
       "time": "19:00:44",
@@ -81,9 +81,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:10:9",
+      "id": "scalable:11:9",
       "broker": "scalable",
-      "source_revision": 10,
+      "source_revision": 11,
       "source_row": 9,
       "date": "2022-03-22",
       "time": "14:28:15",
@@ -105,9 +105,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:10:53",
+      "id": "scalable:11:53",
       "broker": "scalable",
-      "source_revision": 10,
+      "source_revision": 11,
       "source_row": 53,
       "date": "2023-12-18",
       "time": "16:08:56",
@@ -129,9 +129,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:10:59",
+      "id": "scalable:11:59",
       "broker": "scalable",
-      "source_revision": 10,
+      "source_revision": 11,
       "source_row": 59,
       "date": "2023-12-27",
       "time": "21:15:36",

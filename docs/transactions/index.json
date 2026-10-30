@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T02:52:55.933Z",
+  "generated_at": "2026-10-30T09:53:29.902Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 10,
-        "updated_at": "2026-10-23T17:40:23.703Z",
-        "source_rows": 1258,
+        "revision": 11,
+        "updated_at": "2026-10-30T08:47:35.371Z",
+        "source_rows": 1261,
         "first_date": "2022-03-16",
-        "last_date": "2026-10-23"
+        "last_date": "2026-10-30"
       },
       "trade-republic": {
         "revision": 1,
@@ -22,7 +22,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-30T02:52:56.009Z",
+    "copied_at": "2026-10-30T09:53:29.999Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,15 +31,15 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1287,
-    "exported_rows_before_filters": 1287,
+    "source_rows": 1290,
+    "exported_rows_before_filters": 1290,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
     "historical_depot_assignments_verified": false,
     "history_before_imported_records_verified": false
   },
-  "total_count": 1287,
+  "total_count": 1290,
   "securities": 82,
   "page_size": 100,
   "pages": [
@@ -558,13 +558,13 @@
       "name": "iShares World Equity High Income (Dist)",
       "first_documented_transaction": "2026-08-25",
       "first_documented_purchase": "2026-08-25",
-      "last_documented_transaction": "2026-09-29",
+      "last_documented_transaction": "2026-10-28",
       "first_documented_purchase_in_linked_isins": "2026-08-25",
       "related_isins": [],
-      "transaction_count": 12,
+      "transaction_count": 13,
       "purchases": 10,
       "sales": 1,
-      "dividend_payments": 1,
+      "dividend_payments": 2,
       "history": "by-isin/IE000KJPDY61.json"
     },
     {
@@ -586,13 +586,13 @@
       "name": "YieldMax Semiconductor Option Income (Dist)",
       "first_documented_transaction": "2026-09-18",
       "first_documented_purchase": "2026-09-18",
-      "last_documented_transaction": "2026-10-23",
+      "last_documented_transaction": "2026-10-30",
       "first_documented_purchase_in_linked_isins": "2026-09-18",
       "related_isins": [],
-      "transaction_count": 10,
+      "transaction_count": 11,
       "purchases": 7,
       "sales": 0,
-      "dividend_payments": 3,
+      "dividend_payments": 4,
       "history": "by-isin/IE000T8QD852.json"
     },
     {
