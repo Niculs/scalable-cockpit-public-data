@@ -2,7 +2,7 @@
   "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-10-31T17:54:59.717Z",
+    "copied_at": "2026-10-31T21:25:47.210Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -14,14 +14,14 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-10-31T17:54:59.118Z",
+    "generated_at": "2026-10-31T21:25:46.216Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
       "bookings_through": "2026-10-30",
       "quotes_earliest": "2026-10-30T16:35:05.000Z",
       "quotes_latest": "2026-10-30T19:35:00.000Z",
-      "dividend_reference_checked_at": "2026-10-30T20:07:26.453Z",
+      "dividend_reference_checked_at": "2026-10-31T19:44:53.000Z",
       "broker_imports": {
         "scalable": {
           "revision": 12,
@@ -66,7 +66,7 @@
                 "after_tax": true,
                 "payments_per_year": 4,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-30T20:07:26.453Z"
+                "source_checked_at": "2026-10-31T19:44:53.000Z"
               }
             ]
           },
@@ -83,7 +83,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-30T20:07:26.453Z"
+                "source_checked_at": "2026-10-31T19:44:53.000Z"
               }
             ]
           },
@@ -100,7 +100,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-30T20:07:26.453Z"
+                "source_checked_at": "2026-10-31T19:44:53.000Z"
               }
             ]
           },
@@ -117,7 +117,7 @@
                 "after_tax": true,
                 "payments_per_year": 52,
                 "weekly_estimate": true,
-                "source_checked_at": "2026-10-30T20:07:26.453Z"
+                "source_checked_at": "2026-10-31T19:44:53.000Z"
               }
             ]
           },
@@ -134,7 +134,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-30T20:07:26.453Z"
+                "source_checked_at": "2026-10-31T19:44:53.000Z"
               }
             ]
           }
@@ -484,7 +484,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-10-31T17:54:59.307Z",
+    "generated_at": "2026-10-31T21:25:46.495Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -877,7 +877,7 @@
             ],
             "reference": {
               "source": "https://www.ishares.com/ch/professionals/en/products/335083/ishares-world-equity-high-income-active-ucits-etf",
-              "checked_at": "2026-10-30T20:07:26.453Z",
+              "checked_at": "2026-10-31T19:44:53.000Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -997,7 +997,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/cegi-crypto-equity-income-and-growth-etf/",
-              "checked_at": "2026-10-30T20:07:26.453Z",
+              "checked_at": "2026-10-31T19:44:53.000Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1117,7 +1117,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/fepi-rex-tech-innovation-premium-income-etf/",
-              "checked_at": "2026-10-30T20:07:26.453Z",
+              "checked_at": "2026-10-31T19:44:53.000Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1270,7 +1270,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/chpy-yieldmax-semiconductor-option-income-etf/",
-              "checked_at": "2026-10-30T20:07:26.453Z",
+              "checked_at": "2026-10-31T19:44:53.000Z",
               "stale": false,
               "payments_per_year": 52
             },
@@ -1473,7 +1473,7 @@
             ],
             "reference": {
               "source": "https://www.bwlpg.com/investor/dividends/",
-              "checked_at": "2026-10-30T20:07:26.453Z",
+              "checked_at": "2026-10-31T19:44:53.000Z",
               "stale": false,
               "payments_per_year": 4
             },
@@ -1654,7 +1654,7 @@
   },
   "purchases": {
     "schema_version": 2,
-    "generated_at": "2026-10-31T17:54:59.477Z",
+    "generated_at": "2026-10-31T21:25:46.707Z",
     "currency": "EUR",
     "scope": "historical_purchases_all_imported_securities",
     "filters": {
@@ -13705,7 +13705,7 @@
   },
   "transactions": {
     "schema_version": 1,
-    "generated_at": "2026-10-31T17:54:59.624Z",
+    "generated_at": "2026-10-31T21:25:47.116Z",
     "scope": "all_imported_broker_transactions_including_closed_securities_and_unallocated_cash",
     "filters": {
       "isin": null,
