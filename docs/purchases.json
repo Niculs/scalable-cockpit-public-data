@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-01T18:38:48.481Z",
+  "generated_at": "2026-11-01T22:28:47.157Z",
   "currency": "EUR",
   "scope": "historical_purchases_all_imported_securities",
   "filters": {
@@ -500,15 +500,15 @@
       "remaining_fifo_cost_basis": 3598.07,
       "remaining_fifo_cost_per_share": 89.95175,
       "last_saved_quote": {
-        "price": 66.59061277705345,
+        "price": 66.47433325018167,
         "currency": "EUR",
-        "as_of": "2026-10-30T18:23:26.000Z",
+        "as_of": "2026-10-30T20:45:02.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "CHF"
       }
@@ -578,13 +578,13 @@
       "last_saved_quote": {
         "price": 21.89,
         "currency": "EUR",
-        "as_of": "2026-10-30T16:50:59.000Z",
+        "as_of": "2026-10-30T20:45:01.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "EUR"
       }
@@ -604,15 +604,15 @@
       "remaining_fifo_cost_basis": 4133.22,
       "remaining_fifo_cost_per_share": 20.56328358,
       "last_saved_quote": {
-        "price": 18.807191590709667,
+        "price": 18.82556440843543,
         "currency": "EUR",
-        "as_of": "2026-10-30T16:35:05.000Z",
-        "date": "2026-10-30",
-        "age_days": 2,
+        "as_of": "2026-11-01T03:35:08.000Z",
+        "date": "2026-11-01",
+        "age_days": 0,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "USD"
       }
@@ -634,13 +634,13 @@
       "last_saved_quote": {
         "price": 5.192,
         "currency": "EUR",
-        "as_of": "2026-10-30T18:48:58.000Z",
-        "date": "2026-10-30",
-        "age_days": 2,
+        "as_of": "2026-11-01T00:30:35.000Z",
+        "date": "2026-11-01",
+        "age_days": 0,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "EUR"
       }
@@ -678,13 +678,13 @@
       "last_saved_quote": {
         "price": 44.4,
         "currency": "EUR",
-        "as_of": "2026-10-30T16:51:09.000Z",
+        "as_of": "2026-10-30T20:45:01.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "EUR"
       }
@@ -720,15 +720,15 @@
       "remaining_fifo_cost_basis": 1991.47,
       "remaining_fifo_cost_per_share": 4.3387146,
       "last_saved_quote": {
-        "price": 4.351006799947232,
+        "price": 4.343505692770003,
         "currency": "EUR",
-        "as_of": "2026-10-30T16:35:24.000Z",
+        "as_of": "2026-10-30T20:30:01.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "GBP"
       }
@@ -812,15 +812,15 @@
       "remaining_fifo_cost_basis": 72851.38,
       "remaining_fifo_cost_per_share": 149.28561475,
       "last_saved_quote": {
-        "price": 168.81256379492507,
+        "price": 168.97747743710622,
         "currency": "EUR",
-        "as_of": "2026-10-30T19:10:32.000Z",
+        "as_of": "2026-10-30T20:30:01.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "USD"
       }
@@ -840,15 +840,15 @@
       "remaining_fifo_cost_basis": 8553.6,
       "remaining_fifo_cost_per_share": 47.52,
       "last_saved_quote": {
-        "price": 44.71464641942589,
+        "price": 44.758328329315184,
         "currency": "EUR",
-        "as_of": "2026-10-30T16:53:11.000Z",
+        "as_of": "2026-10-30T20:30:01.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "USD"
       }
@@ -948,15 +948,15 @@
       "remaining_fifo_cost_basis": 7560.46,
       "remaining_fifo_cost_per_share": 378.023,
       "last_saved_quote": {
-        "price": 346.68176852962773,
+        "price": 347.02044328132143,
         "currency": "EUR",
-        "as_of": "2026-10-30T17:15:01.000Z",
+        "as_of": "2026-10-30T20:30:01.000Z",
         "date": "2026-10-30",
         "age_days": 2,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "USD"
       }
@@ -1152,7 +1152,7 @@
       "remaining_fifo_cost_basis": 2044.77,
       "remaining_fifo_cost_per_share": 21.6166927,
       "last_saved_quote": {
-        "price": 22.464692083824062,
+        "price": 22.428388042209683,
         "currency": "EUR",
         "as_of": "2026-10-30T19:35:00.000Z",
         "date": "2026-10-30",
@@ -1160,7 +1160,7 @@
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
-        "retrieved_at": "2026-10-30T20:07:26.749Z",
+        "retrieved_at": "2026-11-01T19:45:16.840Z",
         "provider": "TradingView · manueller Abruf",
         "source_currency": "NOK"
       }
@@ -12050,7 +12050,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-01T18:38:48.842Z",
+    "copied_at": "2026-11-01T22:28:47.724Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,

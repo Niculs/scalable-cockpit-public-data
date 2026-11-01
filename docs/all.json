@@ -2,7 +2,7 @@
   "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-01T18:38:48.842Z",
+    "copied_at": "2026-11-01T22:28:47.724Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -14,14 +14,14 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-11-01T18:38:47.134Z",
+    "generated_at": "2026-11-01T22:28:46.286Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
       "bookings_through": "2026-10-30",
-      "quotes_earliest": "2026-10-30T16:35:05.000Z",
-      "quotes_latest": "2026-10-30T19:35:00.000Z",
-      "dividend_reference_checked_at": "2026-10-31T19:44:53.000Z",
+      "quotes_earliest": "2026-10-30T19:35:00.000Z",
+      "quotes_latest": "2026-11-01T03:35:08.000Z",
+      "dividend_reference_checked_at": "2026-11-01T19:45:05.615Z",
       "broker_imports": {
         "scalable": {
           "revision": 12,
@@ -36,9 +36,9 @@
       }
     },
     "overview": {
-      "securities_value": 122492.48,
+      "securities_value": 122579.76,
       "cash_balance": 22000.52,
-      "total_wealth": 144493,
+      "total_wealth": 144580.28,
       "positions": 10,
       "dividends_total": 13175.38,
       "dividend_payments": 130,
@@ -66,7 +66,7 @@
                 "after_tax": true,
                 "payments_per_year": 4,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-31T19:44:53.000Z"
+                "source_checked_at": "2026-11-01T19:45:05.615Z"
               }
             ]
           },
@@ -83,7 +83,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-31T19:44:53.000Z"
+                "source_checked_at": "2026-11-01T19:45:05.615Z"
               }
             ]
           },
@@ -100,7 +100,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-31T19:44:53.000Z"
+                "source_checked_at": "2026-11-01T19:45:05.615Z"
               }
             ]
           },
@@ -117,7 +117,7 @@
                 "after_tax": true,
                 "payments_per_year": 52,
                 "weekly_estimate": true,
-                "source_checked_at": "2026-10-31T19:44:53.000Z"
+                "source_checked_at": "2026-11-01T19:45:05.615Z"
               }
             ]
           },
@@ -134,7 +134,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-10-31T19:44:53.000Z"
+                "source_checked_at": "2026-11-01T19:45:05.615Z"
               }
             ]
           }
@@ -151,7 +151,7 @@
           {
             "key": "open_positions",
             "label": "Ergebnis der heute offenen ISINs",
-            "value": 5374.71,
+            "value": 5461.99,
             "explanation": "Offene Kursgewinne plus alle historischen Verkäufe, Ausschüttungen und zugeordneten Steuerbuchungen derselben ISINs. Entspricht dem Standardumfang von /api/public/positions."
           },
           {
@@ -173,27 +173,27 @@
             "explanation": "Überleitung der auf Cent gerundeten Komponenten auf das gerundete Gesamtergebnis."
           }
         ],
-        "result_after_tax": 6971.34,
+        "result_after_tax": 7058.62,
         "arithmetic_difference": 0,
         "complete": true
       },
       "remaining_cost_basis": 116556.99,
-      "unrealized_gain": 5935.5,
+      "unrealized_gain": 6022.77,
       "realized_sales": -12817.74,
       "dividends_after_tax": 13175.38,
       "separate_tax_bookings": 678.2,
       "booked_result": 357.64,
-      "result_after_tax": 6971.34,
-      "result_before_tax": 14097.77,
+      "result_after_tax": 7058.62,
+      "result_before_tax": 14185.05,
       "tax_effect": 7126.43
     },
     "capital": {
       "net_contributions": 137368.79,
-      "wealth_increase_including_cash": 7124.21,
-      "securities_minus_contributions": -14876.31,
+      "wealth_increase_including_cash": 7211.49,
+      "securities_minus_contributions": -14789.03,
       "wealth_minus_securities_result": 152.87,
       "nonsecurity_result": 452.87,
-      "result_including_cash_income": 7424.21,
+      "result_including_cash_income": 7511.49,
       "unreconciled_difference": -300,
       "cashflow_reconciliation": {
         "status": "open",
@@ -300,7 +300,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T18:23:26.000Z",
+          "as_of": "2026-10-30T20:45:02.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -326,7 +326,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T19:10:32.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -339,7 +339,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T16:53:11.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -352,7 +352,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T17:15:01.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -364,9 +364,9 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
-          "as_of": "2026-10-30T18:48:58.000Z",
-          "date": "2026-10-30",
+          "age_days": 0,
+          "as_of": "2026-11-01T00:30:35.000Z",
+          "date": "2026-11-01",
           "max_age_days": 3,
           "timestamp_verified": true,
           "fx_age_days": 0
@@ -378,7 +378,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T16:50:59.000Z",
+          "as_of": "2026-10-30T20:45:01.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -391,7 +391,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T16:35:24.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -404,7 +404,7 @@
           "fresh": true,
           "stale": false,
           "age_days": 2,
-          "as_of": "2026-10-30T16:51:09.000Z",
+          "as_of": "2026-10-30T20:45:01.000Z",
           "date": "2026-10-30",
           "max_age_days": 3,
           "timestamp_verified": true,
@@ -416,9 +416,9 @@
           "status": "fresh",
           "fresh": true,
           "stale": false,
-          "age_days": 2,
-          "as_of": "2026-10-30T16:35:05.000Z",
-          "date": "2026-10-30",
+          "age_days": 0,
+          "as_of": "2026-11-01T03:35:08.000Z",
+          "date": "2026-11-01",
           "max_age_days": 3,
           "timestamp_verified": true,
           "fx_age_days": 2
@@ -458,7 +458,7 @@
         {
           "key": "open_positions",
           "label": "Ergebnis der heute offenen ISINs",
-          "value": 5374.71,
+          "value": 5461.99,
           "explanation": "Offene Kursgewinne plus alle historischen Verkäufe, Ausschüttungen und zugeordneten Steuerbuchungen derselben ISINs. Entspricht dem Standardumfang von /api/public/positions."
         },
         {
@@ -480,11 +480,11 @@
           "explanation": "Überleitung der auf Cent gerundeten Komponenten auf das gerundete Gesamtergebnis."
         }
       ],
-      "result_after_tax": 6971.34,
+      "result_after_tax": 7058.62,
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-11-01T18:38:47.760Z",
+    "generated_at": "2026-11-01T22:28:46.753Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -514,27 +514,27 @@
         "shares": 488,
         "currency": "EUR",
         "quote": {
-          "price": 168.81256379492507,
+          "price": 168.97747743710622,
           "currency": "EUR",
-          "as_of": "2026-10-30T19:10:32.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         },
-        "market_value": 82380.53,
+        "market_value": 82461.01,
         "remaining_cost_basis": 72851.38,
-        "unrealized_gain": 9529.15,
-        "unrealized_gain_percent": 13.08,
+        "unrealized_gain": 9609.63,
+        "unrealized_gain_percent": 13.19,
         "realized_sales": 900.96,
         "dividends_after_tax": 0,
         "separate_tax_bookings": 0,
-        "result_after_tax": 10430.11,
-        "result_before_tax": 10430.11,
+        "result_after_tax": 10510.59,
+        "result_before_tax": 10510.59,
         "tax_effect": 0,
         "dividends": {
           "payments": 0,
@@ -579,13 +579,13 @@
             "broker": "scalable",
             "shares": 488,
             "remaining_cost_basis": 72851.38,
-            "unrealized_gain": 9529.15,
-            "market_value": 82380.53,
+            "unrealized_gain": 9609.63,
+            "market_value": 82461.01,
             "realized_sales": 900.96,
             "dividends_after_tax": 0,
             "separate_tax_bookings": 0,
-            "result_after_tax": 10430.11,
-            "result_before_tax": 10430.11,
+            "result_after_tax": 10510.59,
+            "result_before_tax": 10510.59,
             "issues": []
           }
         ],
@@ -599,7 +599,7 @@
           "missing_quote": false,
           "booking_issues": []
         },
-        "weight_percent": 67.25
+        "weight_percent": 67.27
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -609,27 +609,27 @@
         "shares": 180,
         "currency": "EUR",
         "quote": {
-          "price": 44.71464641942589,
+          "price": 44.758328329315184,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:53:11.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         },
-        "market_value": 8048.64,
+        "market_value": 8056.5,
         "remaining_cost_basis": 8553.6,
-        "unrealized_gain": -504.96,
-        "unrealized_gain_percent": -5.9,
+        "unrealized_gain": -497.1,
+        "unrealized_gain_percent": -5.81,
         "realized_sales": 228.07,
         "dividends_after_tax": 0,
         "separate_tax_bookings": 0,
-        "result_after_tax": -276.89,
-        "result_before_tax": -276.89,
+        "result_after_tax": -269.03,
+        "result_before_tax": -269.03,
         "tax_effect": 0,
         "dividends": {
           "payments": 0,
@@ -674,13 +674,13 @@
             "broker": "scalable",
             "shares": 180,
             "remaining_cost_basis": 8553.6,
-            "unrealized_gain": -504.96,
-            "market_value": 8048.64,
+            "unrealized_gain": -497.1,
+            "market_value": 8056.5,
             "realized_sales": 228.07,
             "dividends_after_tax": 0,
             "separate_tax_bookings": 0,
-            "result_after_tax": -276.89,
-            "result_before_tax": -276.89,
+            "result_after_tax": -269.03,
+            "result_before_tax": -269.03,
             "issues": []
           }
         ],
@@ -704,27 +704,27 @@
         "shares": 20,
         "currency": "EUR",
         "quote": {
-          "price": 346.68176852962773,
+          "price": 347.02044328132143,
           "currency": "EUR",
-          "as_of": "2026-10-30T17:15:01.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         },
-        "market_value": 6933.64,
+        "market_value": 6940.41,
         "remaining_cost_basis": 7560.46,
-        "unrealized_gain": -626.82,
-        "unrealized_gain_percent": -8.29,
+        "unrealized_gain": -620.05,
+        "unrealized_gain_percent": -8.2,
         "realized_sales": 0,
         "dividends_after_tax": 0,
         "separate_tax_bookings": 0,
-        "result_after_tax": -626.82,
-        "result_before_tax": -626.82,
+        "result_after_tax": -620.05,
+        "result_before_tax": -620.05,
         "tax_effect": 0,
         "dividends": {
           "payments": 0,
@@ -769,13 +769,13 @@
             "broker": "scalable",
             "shares": 20,
             "remaining_cost_basis": 7560.46,
-            "unrealized_gain": -626.82,
-            "market_value": 6933.64,
+            "unrealized_gain": -620.05,
+            "market_value": 6940.41,
             "realized_sales": 0,
             "dividends_after_tax": 0,
             "separate_tax_bookings": 0,
-            "result_after_tax": -626.82,
-            "result_before_tax": -626.82,
+            "result_after_tax": -620.05,
+            "result_before_tax": -620.05,
             "issues": []
           }
         ],
@@ -801,13 +801,13 @@
         "quote": {
           "price": 5.192,
           "currency": "EUR",
-          "as_of": "2026-10-30T18:48:58.000Z",
-          "date": "2026-10-30",
-          "age_days": 2,
+          "as_of": "2026-11-01T00:30:35.000Z",
+          "date": "2026-11-01",
+          "age_days": 0,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "EUR"
         },
@@ -877,7 +877,7 @@
             ],
             "reference": {
               "source": "https://www.ishares.com/ch/professionals/en/products/335083/ishares-world-equity-high-income-active-ucits-etf",
-              "checked_at": "2026-10-31T19:44:53.000Z",
+              "checked_at": "2026-11-01T19:45:05.615Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -909,7 +909,7 @@
           "missing_quote": false,
           "booking_issues": []
         },
-        "weight_percent": 5.48
+        "weight_percent": 5.47
       },
       {
         "isin": "IE0008BA4TY1",
@@ -921,13 +921,13 @@
         "quote": {
           "price": 21.89,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:50:59.000Z",
+          "as_of": "2026-10-30T20:45:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "EUR"
         },
@@ -997,7 +997,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/cegi-crypto-equity-income-and-growth-etf/",
-              "checked_at": "2026-10-31T19:44:53.000Z",
+              "checked_at": "2026-11-01T19:45:05.615Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1039,27 +1039,27 @@
         "shares": 201,
         "currency": "EUR",
         "quote": {
-          "price": 18.807191590709667,
+          "price": 18.82556440843543,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:35:05.000Z",
-          "date": "2026-10-30",
-          "age_days": 2,
+          "as_of": "2026-11-01T03:35:08.000Z",
+          "date": "2026-11-01",
+          "age_days": 0,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         },
-        "market_value": 3780.25,
+        "market_value": 3783.94,
         "remaining_cost_basis": 4133.22,
-        "unrealized_gain": -352.97,
-        "unrealized_gain_percent": -8.54,
+        "unrealized_gain": -349.28,
+        "unrealized_gain_percent": -8.45,
         "realized_sales": 0,
         "dividends_after_tax": 111.61,
         "separate_tax_bookings": 0,
-        "result_after_tax": -241.36,
-        "result_before_tax": -241.36,
+        "result_after_tax": -237.67,
+        "result_before_tax": -237.67,
         "tax_effect": 0,
         "dividends": {
           "payments": 2,
@@ -1076,7 +1076,7 @@
           "forecast": {
             "available": true,
             "annual_estimate": 1084.32,
-            "annual_yield_percent": 28.68,
+            "annual_yield_percent": 28.66,
             "next_month": {
               "period": "2026-12",
               "estimated_value": 90.36,
@@ -1117,7 +1117,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/fepi-rex-tech-innovation-premium-income-etf/",
-              "checked_at": "2026-10-31T19:44:53.000Z",
+              "checked_at": "2026-11-01T19:45:05.615Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1129,13 +1129,13 @@
             "broker": "scalable",
             "shares": 201,
             "remaining_cost_basis": 4133.22,
-            "unrealized_gain": -352.97,
-            "market_value": 3780.25,
+            "unrealized_gain": -349.28,
+            "market_value": 3783.94,
             "realized_sales": 0,
             "dividends_after_tax": 111.61,
             "separate_tax_bookings": 0,
-            "result_after_tax": -241.36,
-            "result_before_tax": -241.36,
+            "result_after_tax": -237.67,
+            "result_before_tax": -237.67,
             "issues": []
           }
         ],
@@ -1161,13 +1161,13 @@
         "quote": {
           "price": 44.4,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:51:09.000Z",
+          "as_of": "2026-10-30T20:45:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "EUR"
         },
@@ -1270,7 +1270,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/chpy-yieldmax-semiconductor-option-income-etf/",
-              "checked_at": "2026-10-31T19:44:53.000Z",
+              "checked_at": "2026-11-01T19:45:05.615Z",
               "stale": false,
               "payments_per_year": 52
             },
@@ -1312,27 +1312,27 @@
         "shares": 40,
         "currency": "EUR",
         "quote": {
-          "price": 66.59061277705345,
+          "price": 66.47433325018167,
           "currency": "EUR",
-          "as_of": "2026-10-30T18:23:26.000Z",
+          "as_of": "2026-10-30T20:45:02.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "CHF"
         },
-        "market_value": 2663.62,
+        "market_value": 2658.97,
         "remaining_cost_basis": 3598.07,
-        "unrealized_gain": -934.45,
-        "unrealized_gain_percent": -25.97,
+        "unrealized_gain": -939.1,
+        "unrealized_gain_percent": -26.1,
         "realized_sales": -1056.51,
         "dividends_after_tax": 0,
         "separate_tax_bookings": 0,
-        "result_after_tax": -1990.96,
-        "result_before_tax": -1990.96,
+        "result_after_tax": -1995.61,
+        "result_before_tax": -1995.61,
         "tax_effect": 0,
         "dividends": {
           "payments": 0,
@@ -1377,13 +1377,13 @@
             "broker": "scalable",
             "shares": 40,
             "remaining_cost_basis": 3598.07,
-            "unrealized_gain": -934.45,
-            "market_value": 2663.62,
+            "unrealized_gain": -939.1,
+            "market_value": 2658.97,
             "realized_sales": -1056.51,
             "dividends_after_tax": 0,
             "separate_tax_bookings": 0,
-            "result_after_tax": -1990.96,
-            "result_before_tax": -1990.96,
+            "result_after_tax": -1995.61,
+            "result_before_tax": -1995.61,
             "issues": []
           }
         ],
@@ -1407,7 +1407,7 @@
         "shares": 94.592176,
         "currency": "EUR",
         "quote": {
-          "price": 22.464692083824062,
+          "price": 22.428388042209683,
           "currency": "EUR",
           "as_of": "2026-10-30T19:35:00.000Z",
           "date": "2026-10-30",
@@ -1415,19 +1415,19 @@
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "NOK"
         },
-        "market_value": 2124.98,
+        "market_value": 2121.55,
         "remaining_cost_basis": 2044.77,
-        "unrealized_gain": 80.21,
-        "unrealized_gain_percent": 3.92,
+        "unrealized_gain": 76.78,
+        "unrealized_gain_percent": 3.75,
         "realized_sales": -2514.37,
         "dividends_after_tax": 1356.36,
         "separate_tax_bookings": 0,
-        "result_after_tax": -1077.8,
-        "result_before_tax": -610.34,
+        "result_after_tax": -1081.23,
+        "result_before_tax": -613.77,
         "tax_effect": 467.46,
         "dividends": {
           "payments": 13,
@@ -1444,7 +1444,7 @@
           "forecast": {
             "available": true,
             "annual_estimate": 311.61,
-            "annual_yield_percent": 14.66,
+            "annual_yield_percent": 14.69,
             "next_month": {
               "period": "2026-12",
               "estimated_value": 77.9,
@@ -1485,7 +1485,7 @@
             ],
             "reference": {
               "source": "https://www.bwlpg.com/investor/dividends/",
-              "checked_at": "2026-10-31T19:44:53.000Z",
+              "checked_at": "2026-11-01T19:45:05.615Z",
               "stale": false,
               "payments_per_year": 4
             },
@@ -1497,13 +1497,13 @@
             "broker": "scalable",
             "shares": 94.592176,
             "remaining_cost_basis": 2044.77,
-            "unrealized_gain": 80.21,
-            "market_value": 2124.98,
+            "unrealized_gain": 76.78,
+            "market_value": 2121.55,
             "realized_sales": -2577.05,
             "dividends_after_tax": 1337.57,
             "separate_tax_bookings": 0,
-            "result_after_tax": -1159.27,
-            "result_before_tax": -700.76,
+            "result_after_tax": -1162.7,
+            "result_before_tax": -704.19,
             "issues": []
           },
           {
@@ -1540,27 +1540,27 @@
         "shares": 459,
         "currency": "EUR",
         "quote": {
-          "price": 4.351006799947232,
+          "price": 4.343505692770003,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:35:24.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "GBP"
         },
-        "market_value": 1997.11,
+        "market_value": 1993.67,
         "remaining_cost_basis": 1991.47,
-        "unrealized_gain": 5.64,
-        "unrealized_gain_percent": 0.28,
+        "unrealized_gain": 2.2,
+        "unrealized_gain_percent": 0.11,
         "realized_sales": 0,
         "dividends_after_tax": 0,
         "separate_tax_bookings": 0,
-        "result_after_tax": 5.64,
-        "result_before_tax": 5.64,
+        "result_after_tax": 2.2,
+        "result_before_tax": 2.2,
         "tax_effect": 0,
         "dividends": {
           "payments": 0,
@@ -1605,13 +1605,13 @@
             "broker": "scalable",
             "shares": 459,
             "remaining_cost_basis": 1991.47,
-            "unrealized_gain": 5.64,
-            "market_value": 1997.11,
+            "unrealized_gain": 2.2,
+            "market_value": 1993.67,
             "realized_sales": 0,
             "dividends_after_tax": 0,
             "separate_tax_bookings": 0,
-            "result_after_tax": 5.64,
-            "result_before_tax": 5.64,
+            "result_after_tax": 2.2,
+            "result_before_tax": 2.2,
             "issues": []
           }
         ],
@@ -1629,13 +1629,13 @@
       }
     ],
     "totals": {
-      "market_value": 122492.48,
+      "market_value": 122579.76,
       "remaining_cost_basis": 116556.99,
-      "unrealized_gain": 5935.5,
+      "unrealized_gain": 6022.77,
       "realized_sales": -2484.54,
       "dividends_after_tax": 1923.75,
-      "result_after_tax": 5374.71,
-      "result_before_tax": 5842.17
+      "result_after_tax": 5461.99,
+      "result_before_tax": 5929.45
     },
     "quality": {
       "complete": true,
@@ -1666,7 +1666,7 @@
   },
   "purchases": {
     "schema_version": 2,
-    "generated_at": "2026-11-01T18:38:48.481Z",
+    "generated_at": "2026-11-01T22:28:47.157Z",
     "currency": "EUR",
     "scope": "historical_purchases_all_imported_securities",
     "filters": {
@@ -2166,15 +2166,15 @@
         "remaining_fifo_cost_basis": 3598.07,
         "remaining_fifo_cost_per_share": 89.95175,
         "last_saved_quote": {
-          "price": 66.59061277705345,
+          "price": 66.47433325018167,
           "currency": "EUR",
-          "as_of": "2026-10-30T18:23:26.000Z",
+          "as_of": "2026-10-30T20:45:02.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "CHF"
         }
@@ -2244,13 +2244,13 @@
         "last_saved_quote": {
           "price": 21.89,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:50:59.000Z",
+          "as_of": "2026-10-30T20:45:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "EUR"
         }
@@ -2270,15 +2270,15 @@
         "remaining_fifo_cost_basis": 4133.22,
         "remaining_fifo_cost_per_share": 20.56328358,
         "last_saved_quote": {
-          "price": 18.807191590709667,
+          "price": 18.82556440843543,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:35:05.000Z",
-          "date": "2026-10-30",
-          "age_days": 2,
+          "as_of": "2026-11-01T03:35:08.000Z",
+          "date": "2026-11-01",
+          "age_days": 0,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         }
@@ -2300,13 +2300,13 @@
         "last_saved_quote": {
           "price": 5.192,
           "currency": "EUR",
-          "as_of": "2026-10-30T18:48:58.000Z",
-          "date": "2026-10-30",
-          "age_days": 2,
+          "as_of": "2026-11-01T00:30:35.000Z",
+          "date": "2026-11-01",
+          "age_days": 0,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "EUR"
         }
@@ -2344,13 +2344,13 @@
         "last_saved_quote": {
           "price": 44.4,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:51:09.000Z",
+          "as_of": "2026-10-30T20:45:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "EUR"
         }
@@ -2386,15 +2386,15 @@
         "remaining_fifo_cost_basis": 1991.47,
         "remaining_fifo_cost_per_share": 4.3387146,
         "last_saved_quote": {
-          "price": 4.351006799947232,
+          "price": 4.343505692770003,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:35:24.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "GBP"
         }
@@ -2478,15 +2478,15 @@
         "remaining_fifo_cost_basis": 72851.38,
         "remaining_fifo_cost_per_share": 149.28561475,
         "last_saved_quote": {
-          "price": 168.81256379492507,
+          "price": 168.97747743710622,
           "currency": "EUR",
-          "as_of": "2026-10-30T19:10:32.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         }
@@ -2506,15 +2506,15 @@
         "remaining_fifo_cost_basis": 8553.6,
         "remaining_fifo_cost_per_share": 47.52,
         "last_saved_quote": {
-          "price": 44.71464641942589,
+          "price": 44.758328329315184,
           "currency": "EUR",
-          "as_of": "2026-10-30T16:53:11.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         }
@@ -2614,15 +2614,15 @@
         "remaining_fifo_cost_basis": 7560.46,
         "remaining_fifo_cost_per_share": 378.023,
         "last_saved_quote": {
-          "price": 346.68176852962773,
+          "price": 347.02044328132143,
           "currency": "EUR",
-          "as_of": "2026-10-30T17:15:01.000Z",
+          "as_of": "2026-10-30T20:30:01.000Z",
           "date": "2026-10-30",
           "age_days": 2,
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "USD"
         }
@@ -2818,7 +2818,7 @@
         "remaining_fifo_cost_basis": 2044.77,
         "remaining_fifo_cost_per_share": 21.6166927,
         "last_saved_quote": {
-          "price": 22.464692083824062,
+          "price": 22.428388042209683,
           "currency": "EUR",
           "as_of": "2026-10-30T19:35:00.000Z",
           "date": "2026-10-30",
@@ -2826,7 +2826,7 @@
           "stale": false,
           "freshness_status": "fresh",
           "timestamp_verified": true,
-          "retrieved_at": "2026-10-30T20:07:26.749Z",
+          "retrieved_at": "2026-11-01T19:45:16.840Z",
           "provider": "TradingView · manueller Abruf",
           "source_currency": "NOK"
         }
@@ -13717,7 +13717,7 @@
   },
   "transactions": {
     "schema_version": 1,
-    "generated_at": "2026-11-01T18:38:48.726Z",
+    "generated_at": "2026-11-01T22:28:47.653Z",
     "scope": "all_imported_broker_transactions_including_closed_securities_and_unallocated_cash",
     "filters": {
       "isin": null,
