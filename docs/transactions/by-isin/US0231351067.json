@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T22:28:47.653Z",
+  "generated_at": "2026-11-02T01:46:30.325Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
@@ -22,7 +22,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-01T22:28:47.724Z",
+    "copied_at": "2026-11-02T01:46:30.451Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
