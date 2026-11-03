@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T16:07:23.414Z",
+  "generated_at": "2026-11-03T21:50:59.626Z",
   "scope": "all_imported_broker_transactions_including_closed_securities_and_unallocated_cash",
   "filters": {
     "isin": null,
@@ -32736,7 +32736,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-03T16:07:23.535Z",
+    "copied_at": "2026-11-03T21:50:59.726Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,

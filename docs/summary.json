@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T16:07:22.059Z",
+  "generated_at": "2026-11-03T21:50:58.991Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
     "bookings_through": "2026-11-03",
     "quotes_earliest": "2026-11-03T10:59:52.000Z",
     "quotes_latest": "2026-11-03T14:36:09.000Z",
-    "dividend_reference_checked_at": "2026-11-03T14:36:14.225Z",
+    "dividend_reference_checked_at": "2026-11-03T17:29:30.421Z",
     "broker_imports": {
       "scalable": {
         "revision": 13,
@@ -52,7 +52,7 @@
               "after_tax": true,
               "payments_per_year": 4,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-03T14:36:14.225Z"
+              "source_checked_at": "2026-11-03T17:29:30.421Z"
             }
           ]
         },
@@ -69,7 +69,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-02T13:18:50.007Z"
+              "source_checked_at": "2026-11-03T17:29:30.421Z"
             }
           ]
         },
@@ -86,7 +86,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-03T14:36:14.225Z"
+              "source_checked_at": "2026-11-03T17:29:30.421Z"
             }
           ]
         },
@@ -103,7 +103,7 @@
               "after_tax": true,
               "payments_per_year": 52,
               "weekly_estimate": true,
-              "source_checked_at": "2026-11-03T14:36:14.225Z"
+              "source_checked_at": "2026-11-03T17:29:30.421Z"
             }
           ]
         },
@@ -120,7 +120,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-03T14:36:14.225Z"
+              "source_checked_at": "2026-11-03T17:29:30.421Z"
             }
           ]
         }
@@ -435,7 +435,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-03T16:07:23.535Z",
+    "copied_at": "2026-11-03T21:50:59.726Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
