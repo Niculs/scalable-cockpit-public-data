@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T21:50:58.991Z",
+  "generated_at": "2026-11-04T01:44:10.406Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
@@ -285,12 +285,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T10:59:52.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "SGXZ69436764",
@@ -298,12 +298,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:35:56.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BK5BQT80",
@@ -311,12 +311,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:35:58.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -324,12 +324,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:35:26.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "JE00BN2CJ301",
@@ -337,12 +337,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:27:13.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE000KJPDY61",
@@ -350,7 +350,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:35:55.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
@@ -363,7 +363,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:22:11.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
@@ -376,12 +376,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:36:09.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE000T8QD852",
@@ -389,7 +389,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:26:55.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
@@ -402,12 +402,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-03T14:30:26.000Z",
         "date": "2026-11-03",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       }
     ],
     "booking_issues": [],
@@ -435,7 +435,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-03T21:50:59.726Z",
+    "copied_at": "2026-11-04T01:44:11.736Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
