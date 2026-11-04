@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T01:44:11.336Z",
+  "generated_at": "2026-11-04T08:09:04.867Z",
   "currency": "EUR",
   "scope": "historical_purchases_all_imported_securities",
   "filters": {
@@ -12050,7 +12050,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-04T01:44:11.736Z",
+    "copied_at": "2026-11-04T08:09:05.179Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
