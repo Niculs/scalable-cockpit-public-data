@@ -2,7 +2,7 @@
   "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-10T00:13:11.552Z",
+    "copied_at": "2026-11-10T07:29:53.739Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -14,7 +14,7 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-11-10T00:13:10.342Z",
+    "generated_at": "2026-11-10T07:29:52.664Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
@@ -497,7 +497,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-11-10T00:13:10.762Z",
+    "generated_at": "2026-11-10T07:29:53.027Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -1790,7 +1790,7 @@
   },
   "purchases": {
     "schema_version": 2,
-    "generated_at": "2026-11-10T00:13:11.167Z",
+    "generated_at": "2026-11-10T07:29:53.367Z",
     "currency": "EUR",
     "scope": "historical_purchases_all_imported_securities",
     "filters": {
@@ -13943,7 +13943,7 @@
   },
   "transactions": {
     "schema_version": 1,
-    "generated_at": "2026-11-10T00:13:11.466Z",
+    "generated_at": "2026-11-10T07:29:53.644Z",
     "scope": "all_imported_broker_transactions_including_closed_securities_and_unallocated_cash",
     "filters": {
       "isin": null,
