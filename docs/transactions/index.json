@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T16:06:03.182Z",
+  "generated_at": "2026-11-10T00:13:11.466Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 13,
-        "updated_at": "2026-11-02T13:14:35.320Z",
-        "source_rows": 1263,
+        "revision": 17,
+        "updated_at": "2026-11-09T21:41:29.672Z",
+        "source_rows": 1274,
         "first_date": "2022-03-16",
-        "last_date": "2026-10-30"
+        "last_date": "2026-11-09"
       },
       "trade-republic": {
         "revision": 1,
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 8
+    "depot_configuration_revision": 9
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-09T16:06:03.293Z",
+    "copied_at": "2026-11-10T00:13:11.552Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,15 +31,15 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1292,
-    "exported_rows_before_filters": 1292,
+    "source_rows": 1303,
+    "exported_rows_before_filters": 1303,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
     "historical_depot_assignments_verified": false,
     "history_before_imported_records_verified": false
   },
-  "total_count": 1292,
+  "total_count": 1303,
   "securities": 82,
   "page_size": 100,
   "pages": [
@@ -55,7 +55,8 @@
     "pages/0009.json",
     "pages/0010.json",
     "pages/0011.json",
-    "pages/0012.json"
+    "pages/0012.json",
+    "pages/0013.json"
   ],
   "unallocated": "unallocated.json",
   "instruments": [
@@ -544,11 +545,11 @@
       "name": "Rex Tech Innovation Premium Income (Dist)",
       "first_documented_transaction": "2026-09-18",
       "first_documented_purchase": "2026-09-18",
-      "last_documented_transaction": "2026-10-20",
+      "last_documented_transaction": "2026-11-09",
       "first_documented_purchase_in_linked_isins": "2026-09-18",
       "related_isins": [],
-      "transaction_count": 10,
-      "purchases": 8,
+      "transaction_count": 12,
+      "purchases": 10,
       "sales": 0,
       "dividend_payments": 2,
       "history": "by-isin/IE000HF69TA9.json"
@@ -586,13 +587,13 @@
       "name": "YieldMax Semiconductor Option Income (Dist)",
       "first_documented_transaction": "2026-09-18",
       "first_documented_purchase": "2026-09-18",
-      "last_documented_transaction": "2026-10-30",
+      "last_documented_transaction": "2026-11-09",
       "first_documented_purchase_in_linked_isins": "2026-09-18",
       "related_isins": [],
-      "transaction_count": 11,
-      "purchases": 7,
+      "transaction_count": 13,
+      "purchases": 8,
       "sales": 0,
-      "dividend_payments": 4,
+      "dividend_payments": 5,
       "history": "by-isin/IE000T8QD852.json"
     },
     {
@@ -614,11 +615,11 @@
       "name": "Vanguard FTSE Global All-Cap (Acc)",
       "first_documented_transaction": "2026-08-31",
       "first_documented_purchase": "2026-08-31",
-      "last_documented_transaction": "2026-09-28",
+      "last_documented_transaction": "2026-11-05",
       "first_documented_purchase_in_linked_isins": "2026-08-31",
       "related_isins": [],
-      "transaction_count": 3,
-      "purchases": 3,
+      "transaction_count": 4,
+      "purchases": 4,
       "sales": 0,
       "dividend_payments": 0,
       "history": "by-isin/IE000VAHT5T0.json"
@@ -698,11 +699,11 @@
       "name": "iShares Core MSCI Emerging Markets IMI (Acc)",
       "first_documented_transaction": "2026-01-30",
       "first_documented_purchase": "2026-01-30",
-      "last_documented_transaction": "2026-08-24",
+      "last_documented_transaction": "2026-11-05",
       "first_documented_purchase_in_linked_isins": "2026-01-30",
       "related_isins": [],
-      "transaction_count": 48,
-      "purchases": 46,
+      "transaction_count": 49,
+      "purchases": 47,
       "sales": 2,
       "dividend_payments": 0,
       "history": "by-isin/IE00BKM4GZ66.json"
@@ -922,11 +923,11 @@
       "name": "Svenska Handelsbanken",
       "first_documented_transaction": "2024-10-07",
       "first_documented_purchase": "2024-10-07",
-      "last_documented_transaction": "2026-09-15",
+      "last_documented_transaction": "2026-11-09",
       "first_documented_purchase_in_linked_isins": "2024-10-07",
       "related_isins": [],
-      "transaction_count": 19,
-      "purchases": 13,
+      "transaction_count": 20,
+      "purchases": 14,
       "sales": 5,
       "dividend_payments": 1,
       "history": "by-isin/SE0007100599.json"

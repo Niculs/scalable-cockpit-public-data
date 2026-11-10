@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-10T00:13:11.466Z",
+  "data_as_of": {
+    "broker_imports": {
+      "scalable": {
+        "revision": 17,
+        "updated_at": "2026-11-09T21:41:29.672Z",
+        "source_rows": 1274,
+        "first_date": "2022-03-16",
+        "last_date": "2026-11-09"
+      },
+      "trade-republic": {
+        "revision": 1,
+        "updated_at": "2026-09-18T16:40:00.000Z",
+        "source_rows": 29,
+        "first_date": "2026-08-19",
+        "last_date": "2026-09-17"
+      }
+    },
+    "depot_configuration_revision": 9
+  },
+  "delivery": {
+    "type": "public_snapshot",
+    "copied_at": "2026-11-10T00:13:11.552Z",
+    "automatic_refresh_enabled": true,
+    "scheduled_refresh_minutes": 15,
+    "stale_after_seconds": 3600,
+    "source_origin": "https://scalable-cockpit.iku68.chatgpt.site",
+    "note": "Copied from the public Cockpit APIs. Check copied_at and each report data_as_of. Scheduled jobs may be delayed; this is not a live proxy."
+  },
+  "quality": {
+    "complete": true,
+    "source_rows": 1303,
+    "exported_rows_before_filters": 1303,
+    "invalid_rows": [],
+    "unsupported_source_types": [],
+    "depot_configuration_available": true,
+    "historical_depot_assignments_verified": false,
+    "history_before_imported_records_verified": false
+  },
+  "count": 3,
+  "total_count": 1303,
+  "pagination": {
+    "offset": 1300,
+    "limit": 100,
+    "has_more": false,
+    "next_offset": null
+  },
+  "transactions": [
+    {
+      "id": "scalable:17:1272",
+      "broker": "scalable",
+      "source_revision": 17,
+      "source_row": 1272,
+      "date": "2026-11-09",
+      "time": "17:13:51",
+      "type": "buy",
+      "isin": "SE0007100599",
+      "name": "Svenska Handelsbanken",
+      "currency": "EUR",
+      "shares": 17,
+      "quantity_delta": 17,
+      "unit_price": 14.855,
+      "booked_amount": -252.535,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -252.535,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    },
+    {
+      "id": "scalable:17:1273",
+      "broker": "scalable",
+      "source_revision": 17,
+      "source_row": 1273,
+      "date": "2026-11-09",
+      "time": "17:22:06",
+      "type": "buy",
+      "isin": "IE000T8QD852",
+      "name": "YieldMax Semiconductor Option Income (Dist)",
+      "currency": "EUR",
+      "shares": 7,
+      "quantity_delta": 7,
+      "unit_price": 40.41,
+      "booked_amount": -282.87,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -282.87,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [
+        "dividenden"
+      ],
+      "depot_assignment_basis": "current_allocation"
+    },
+    {
+      "id": "scalable:17:1274",
+      "broker": "scalable",
+      "source_revision": 17,
+      "source_row": 1274,
+      "date": "2026-11-09",
+      "time": "17:48:04",
+      "type": "withdrawal",
+      "isin": null,
+      "name": null,
+      "currency": "EUR",
+      "shares": 0,
+      "quantity_delta": 0,
+      "unit_price": null,
+      "booked_amount": -1000,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -1000,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [],
+      "depot_assignment_basis": "unassigned"
+    }
+  ]
+}
