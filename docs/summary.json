@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T08:18:45.664Z",
+  "generated_at": "2026-11-11T16:20:17.333Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
     "bookings_through": "2026-11-09",
-    "quotes_earliest": "2026-11-09T19:35:00.000Z",
-    "quotes_latest": "2026-11-09T20:46:01.000Z",
-    "dividend_reference_checked_at": "2026-11-10T19:43:35.244Z",
+    "quotes_earliest": "2026-11-11T10:43:02.000Z",
+    "quotes_latest": "2026-11-11T11:03:00.000Z",
+    "dividend_reference_checked_at": "2026-11-11T11:02:53.267Z",
     "broker_imports": {
       "scalable": {
         "revision": 17,
@@ -22,9 +22,9 @@
     }
   },
   "overview": {
-    "securities_value": 123343.32,
+    "securities_value": 125278.37,
     "cash_balance": 21060.52,
-    "total_wealth": 144403.84,
+    "total_wealth": 146338.89,
     "positions": 11,
     "dividends_total": 13198.17,
     "dividend_payments": 131,
@@ -52,7 +52,7 @@
               "after_tax": true,
               "payments_per_year": 4,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-10T19:43:35.244Z"
+              "source_checked_at": "2026-11-11T11:02:53.267Z"
             }
           ]
         },
@@ -69,7 +69,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-10T19:43:35.244Z"
+              "source_checked_at": "2026-11-11T11:02:53.267Z"
             }
           ]
         },
@@ -86,7 +86,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-10T19:43:35.244Z"
+              "source_checked_at": "2026-11-11T11:02:53.267Z"
             }
           ]
         },
@@ -103,7 +103,7 @@
               "after_tax": true,
               "payments_per_year": 52,
               "weekly_estimate": true,
-              "source_checked_at": "2026-11-10T19:43:35.244Z"
+              "source_checked_at": "2026-11-11T11:02:53.267Z"
             }
           ]
         },
@@ -120,7 +120,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-10T19:43:35.244Z"
+              "source_checked_at": "2026-11-11T11:02:53.267Z"
             }
           ]
         }
@@ -137,7 +137,7 @@
         {
           "key": "open_positions",
           "label": "Ergebnis der heute offenen ISINs",
-          "value": 4796.18,
+          "value": 6731.23,
           "explanation": "Offene Kursgewinne plus alle historischen Verkäufe, Ausschüttungen und zugeordneten Steuerbuchungen derselben ISINs. Entspricht dem Standardumfang von /api/public/positions."
         },
         {
@@ -155,31 +155,31 @@
         {
           "key": "rounding",
           "label": "Rundung der Teilbeträge",
-          "value": 0,
+          "value": -0.01,
           "explanation": "Überleitung der auf Cent gerundeten Komponenten auf das gerundete Gesamtergebnis."
         }
       ],
-      "result_after_tax": 5582.18,
+      "result_after_tax": 7517.22,
       "arithmetic_difference": 0,
       "complete": true
     },
     "remaining_cost_basis": 118819.78,
-    "unrealized_gain": 4523.55,
+    "unrealized_gain": 6458.59,
     "realized_sales": -12817.74,
     "dividends_after_tax": 13198.17,
     "separate_tax_bookings": 678.2,
     "booked_result": 380.43,
-    "result_after_tax": 5582.18,
-    "result_before_tax": 12708.61,
+    "result_after_tax": 7517.22,
+    "result_before_tax": 14643.65,
     "tax_effect": 7126.43
   },
   "capital": {
     "net_contributions": 139318.41,
-    "wealth_increase_including_cash": 5085.43,
-    "securities_minus_contributions": -15975.09,
+    "wealth_increase_including_cash": 7020.48,
+    "securities_minus_contributions": -14040.04,
     "wealth_minus_securities_result": -496.75,
     "nonsecurity_result": 503.25,
-    "result_including_cash_income": 6085.43,
+    "result_including_cash_income": 8020.47,
     "unreconciled_difference": -1000,
     "cashflow_reconciliation": {
       "status": "open",
@@ -285,12 +285,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:45:03.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T10:57:39.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "SGXZ69436764",
@@ -298,12 +298,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T19:35:00.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:01:45.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "SE0007100599",
@@ -311,12 +311,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:46:01.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:02:48.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "IE00BK5BQT80",
@@ -324,12 +324,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:30:04.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:02:27.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -337,12 +337,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:30:01.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:03:00.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "JE00BN2CJ301",
@@ -350,12 +350,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:30:02.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:01:23.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "IE000KJPDY61",
@@ -363,9 +363,9 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:45:06.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T10:55:51.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -376,9 +376,9 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:45:06.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T10:59:35.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -389,12 +389,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:30:04.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:03:00.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       },
       {
         "isin": "IE000T8QD852",
@@ -402,9 +402,9 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:45:07.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T10:43:02.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -415,12 +415,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-09T20:30:04.000Z",
-        "date": "2026-11-09",
+        "age_days": 0,
+        "as_of": "2026-11-11T11:02:48.000Z",
+        "date": "2026-11-11",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 0
       }
     ],
     "booking_issues": [],
@@ -448,7 +448,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-11T08:18:46.607Z",
+    "copied_at": "2026-11-11T16:20:18.748Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
