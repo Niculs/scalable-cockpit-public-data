@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T21:34:34.706Z",
+  "generated_at": "2026-11-14T01:43:26.129Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
@@ -285,12 +285,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T17:27:46.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "SGXZ69436764",
@@ -298,12 +298,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T15:41:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "SE0007100599",
@@ -311,12 +311,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T16:45:31.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BK5BQT80",
@@ -324,12 +324,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T18:54:42.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -337,12 +337,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T18:37:49.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "JE00BN2CJ301",
@@ -350,12 +350,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T17:15:02.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE000KJPDY61",
@@ -363,7 +363,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T19:04:44.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
@@ -376,7 +376,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T18:17:28.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
@@ -389,12 +389,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T16:35:24.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE000T8QD852",
@@ -402,7 +402,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T16:51:02.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
@@ -415,12 +415,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-13T16:35:29.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       }
     ],
     "booking_issues": [],
@@ -448,7 +448,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-13T21:34:36.303Z",
+    "copied_at": "2026-11-14T01:43:26.722Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
