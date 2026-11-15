@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-15T11:13:39.049Z",
+  "generated_at": "2026-11-15T17:51:19.462Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
     "bookings_through": "2026-11-09",
     "quotes_earliest": "2026-11-13T19:35:00.000Z",
     "quotes_latest": "2026-11-14T03:17:21.000Z",
-    "dividend_reference_checked_at": "2026-11-14T20:12:23.442Z",
+    "dividend_reference_checked_at": "2026-11-15T12:23:54.232Z",
     "broker_imports": {
       "scalable": {
         "revision": 17,
@@ -52,7 +52,7 @@
               "after_tax": true,
               "payments_per_year": 4,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-14T20:12:23.442Z"
+              "source_checked_at": "2026-11-15T12:23:54.232Z"
             }
           ]
         },
@@ -86,7 +86,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-14T20:12:23.442Z"
+              "source_checked_at": "2026-11-15T12:23:54.232Z"
             }
           ]
         },
@@ -103,7 +103,7 @@
               "after_tax": true,
               "payments_per_year": 52,
               "weekly_estimate": true,
-              "source_checked_at": "2026-11-14T20:12:23.442Z"
+              "source_checked_at": "2026-11-15T12:23:54.232Z"
             }
           ]
         },
@@ -120,7 +120,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-14T20:12:23.442Z"
+              "source_checked_at": "2026-11-15T12:23:54.232Z"
             }
           ]
         }
@@ -448,7 +448,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-15T11:13:40.424Z",
+    "copied_at": "2026-11-15T17:51:21.088Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
