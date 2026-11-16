@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-15T22:09:27.990Z",
+  "generated_at": "2026-11-16T02:14:55.556Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
@@ -35,7 +35,7 @@
     },
     "dividends_next_month": {
       "period": "2026-12",
-      "estimated_value": 444.51,
+      "estimated_value": 431.25,
       "is_forecast": true,
       "amount_status": "estimated",
       "components": [
@@ -93,7 +93,7 @@
         {
           "isin": "IE000T8QD852",
           "name": "YieldMax Semiconductor Option Income (Dist)",
-          "estimated_value": 99.01,
+          "estimated_value": 85.75,
           "amount_status": "estimated",
           "basis": [
             {
@@ -285,12 +285,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:45:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "SGXZ69436764",
@@ -298,12 +298,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T19:35:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "SE0007100599",
@@ -311,12 +311,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:46:01.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "IE00BK5BQT80",
@@ -324,12 +324,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:30:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -337,12 +337,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:30:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "JE00BN2CJ301",
@@ -350,12 +350,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:30:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "IE000KJPDY61",
@@ -363,7 +363,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:45:01.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
@@ -376,7 +376,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:45:01.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
@@ -389,12 +389,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:30:00.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       },
       {
         "isin": "IE000T8QD852",
@@ -402,7 +402,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
+        "age_days": 3,
         "as_of": "2026-11-13T20:45:01.000Z",
         "date": "2026-11-13",
         "max_age_days": 3,
@@ -415,12 +415,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 1,
+        "age_days": 2,
         "as_of": "2026-11-14T03:17:21.000Z",
         "date": "2026-11-14",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 2
+        "fx_age_days": 3
       }
     ],
     "booking_issues": [],
@@ -448,7 +448,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-15T22:09:29.479Z",
+    "copied_at": "2026-11-16T02:14:56.490Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
