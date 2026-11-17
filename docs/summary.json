@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T09:54:29.139Z",
+  "generated_at": "2026-11-17T02:59:37.596Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
-    "bookings_through": "2026-11-09",
-    "quotes_earliest": "2026-11-13T19:35:00.000Z",
-    "quotes_latest": "2026-11-14T03:17:21.000Z",
-    "dividend_reference_checked_at": "2026-11-15T12:23:54.232Z",
+    "bookings_through": "2026-11-16",
+    "quotes_earliest": "2026-11-16T16:35:24.000Z",
+    "quotes_latest": "2026-11-16T19:35:00.000Z",
+    "dividend_reference_checked_at": "2026-11-16T20:07:02.790Z",
     "broker_imports": {
       "scalable": {
-        "revision": 17,
-        "updated_at": "2026-11-09T21:41:29.672Z",
-        "bookings": 1274
+        "revision": 18,
+        "updated_at": "2026-11-16T20:39:52.981Z",
+        "bookings": 1279
       },
       "trade-republic": {
         "revision": 1,
@@ -22,12 +22,12 @@
     }
   },
   "overview": {
-    "securities_value": 124723.79,
-    "cash_balance": 21060.52,
-    "total_wealth": 145784.31,
+    "securities_value": 124118.71,
+    "cash_balance": 21730.43,
+    "total_wealth": 145849.14,
     "positions": 11,
-    "dividends_total": 13198.17,
-    "dividend_payments": 131,
+    "dividends_total": 13220.83,
+    "dividend_payments": 132,
     "dividends_last_month": {
       "period": "2026-10",
       "value": 323.6,
@@ -35,7 +35,7 @@
     },
     "dividends_next_month": {
       "period": "2026-12",
-      "estimated_value": 431.25,
+      "estimated_value": 432.33,
       "is_forecast": true,
       "amount_status": "estimated",
       "components": [
@@ -52,7 +52,7 @@
               "after_tax": true,
               "payments_per_year": 4,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-15T12:23:54.232Z"
+              "source_checked_at": "2026-11-16T20:07:02.790Z"
             }
           ]
         },
@@ -69,7 +69,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-14T20:12:23.442Z"
+              "source_checked_at": "2026-11-16T20:07:02.790Z"
             }
           ]
         },
@@ -86,14 +86,14 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-15T12:23:54.232Z"
+              "source_checked_at": "2026-11-16T20:07:02.790Z"
             }
           ]
         },
         {
           "isin": "IE000T8QD852",
           "name": "YieldMax Semiconductor Option Income (Dist)",
-          "estimated_value": 85.75,
+          "estimated_value": 86.83,
           "amount_status": "estimated",
           "basis": [
             {
@@ -103,7 +103,7 @@
               "after_tax": true,
               "payments_per_year": 52,
               "weekly_estimate": true,
-              "source_checked_at": "2026-11-15T12:23:54.232Z"
+              "source_checked_at": "2026-11-16T20:07:02.790Z"
             }
           ]
         },
@@ -120,7 +120,7 @@
               "after_tax": true,
               "payments_per_year": 12,
               "weekly_estimate": false,
-              "source_checked_at": "2026-11-15T12:23:54.232Z"
+              "source_checked_at": "2026-11-16T20:07:02.790Z"
             }
           ]
         }
@@ -137,7 +137,7 @@
         {
           "key": "open_positions",
           "label": "Ergebnis der heute offenen ISINs",
-          "value": 6176.65,
+          "value": 5246.47,
           "explanation": "Offene Kursgewinne plus alle historischen Verkäufe, Ausschüttungen und zugeordneten Steuerbuchungen derselben ISINs. Entspricht dem Standardumfang von /api/public/positions."
         },
         {
@@ -155,35 +155,35 @@
         {
           "key": "rounding",
           "label": "Rundung der Teilbeträge",
-          "value": -0.01,
+          "value": 0,
           "explanation": "Überleitung der auf Cent gerundeten Komponenten auf das gerundete Gesamtergebnis."
         }
       ],
-      "result_after_tax": 6962.64,
+      "result_after_tax": 6032.47,
       "arithmetic_difference": 0,
       "complete": true
     },
-    "remaining_cost_basis": 118819.78,
-    "unrealized_gain": 5904.01,
+    "remaining_cost_basis": 119167.54,
+    "unrealized_gain": 4951.17,
     "realized_sales": -12817.74,
-    "dividends_after_tax": 13198.17,
+    "dividends_after_tax": 13220.83,
     "separate_tax_bookings": 678.2,
-    "booked_result": 380.43,
-    "result_after_tax": 6962.64,
-    "result_before_tax": 14089.07,
+    "booked_result": 403.09,
+    "result_after_tax": 6032.47,
+    "result_before_tax": 13158.89,
     "tax_effect": 7126.43
   },
   "capital": {
     "net_contributions": 139318.41,
-    "wealth_increase_including_cash": 6465.9,
-    "securities_minus_contributions": -14594.62,
-    "wealth_minus_securities_result": -496.75,
-    "nonsecurity_result": 503.25,
-    "result_including_cash_income": 7465.89,
-    "unreconciled_difference": -1000,
+    "wealth_increase_including_cash": 6530.73,
+    "securities_minus_contributions": -15199.7,
+    "wealth_minus_securities_result": 498.26,
+    "nonsecurity_result": 498.26,
+    "result_including_cash_income": 6530.73,
+    "unreconciled_difference": 0,
     "cashflow_reconciliation": {
-      "status": "open",
-      "arithmetic_reconciled": false,
+      "status": "arithmetic_reconciled_balances_unconfirmed",
+      "arithmetic_reconciled": true,
       "balances_confirmed": false,
       "historical_performance_verified": false,
       "components": [
@@ -214,10 +214,10 @@
         {
           "source": "scalable",
           "type": "account_fees",
-          "bookings": 39,
-          "amount": -194.61,
+          "bookings": 40,
+          "amount": -199.6,
           "from": "2023-08-24",
-          "through": "2026-10-10"
+          "through": "2026-11-10"
         },
         {
           "source": "scalable",
@@ -237,16 +237,16 @@
         }
       ],
       "cash_balances": {
-        "scalable": -939.48,
+        "scalable": 80.43,
         "trade_republic": 0,
-        "savings": 22000
+        "savings": 21650
       },
       "cash_balance_basis": "reconstructed_from_imported_ledgers",
       "opening_cash_assumption": 0,
       "scalable_cash_bridge": {
-        "cash_bookings": 130708.13,
-        "signed_trades_after_fees_and_taxes": -131647.61,
-        "balance": -939.48,
+        "cash_bookings": 132075.8,
+        "signed_trades_after_fees_and_taxes": -131995.37,
+        "balance": 80.43,
         "ignored_security_transfers": 24,
         "explanation": "Signierte Cashbuchungen plus Käufe, Verkäufe und Wiederanlagen nach Gebühren/Steuern. Depotüberträge und Kapitalmaßnahmen sind keine Cashbewegungen; deren Bewertungsbeträge werden nicht addiert."
       },
@@ -285,12 +285,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:45:00.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T18:23:51.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "SGXZ69436764",
@@ -298,12 +298,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T19:35:00.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T19:35:00.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "SE0007100599",
@@ -311,12 +311,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:46:01.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T16:45:52.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BK5BQT80",
@@ -324,12 +324,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:30:00.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T18:58:32.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -337,12 +337,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:30:00.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T18:49:24.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "JE00BN2CJ301",
@@ -350,12 +350,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:30:00.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T17:15:02.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "IE000KJPDY61",
@@ -363,9 +363,9 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:45:01.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T19:01:16.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -376,9 +376,9 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:45:01.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T16:50:49.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -389,12 +389,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:30:00.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T16:35:24.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       },
       {
         "isin": "IE000T8QD852",
@@ -402,9 +402,9 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 3,
-        "as_of": "2026-11-13T20:45:01.000Z",
-        "date": "2026-11-13",
+        "age_days": 1,
+        "as_of": "2026-11-16T19:32:15.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
         "fx_age_days": 0
@@ -415,17 +415,17 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 2,
-        "as_of": "2026-11-14T03:17:21.000Z",
-        "date": "2026-11-14",
+        "age_days": 1,
+        "as_of": "2026-11-16T17:15:02.000Z",
+        "date": "2026-11-16",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 3
+        "fx_age_days": 1
       }
     ],
     "booking_issues": [],
     "forecast_available": true,
-    "cashflow_reconciliation": "open",
+    "cashflow_reconciliation": "arithmetic_reconciled_balances_unconfirmed",
     "historical_performance_verified": false
   },
   "definitions": {
@@ -448,7 +448,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-16T09:54:29.983Z",
+    "copied_at": "2026-11-17T02:59:38.382Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,

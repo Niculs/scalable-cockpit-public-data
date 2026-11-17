@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T09:54:29.877Z",
+  "generated_at": "2026-11-17T02:59:38.298Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 17,
-        "updated_at": "2026-11-09T21:41:29.672Z",
-        "source_rows": 1274,
+        "revision": 18,
+        "updated_at": "2026-11-16T20:39:52.981Z",
+        "source_rows": 1279,
         "first_date": "2022-03-16",
-        "last_date": "2026-11-09"
+        "last_date": "2026-11-16"
       },
       "trade-republic": {
         "revision": 1,
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 9
+    "depot_configuration_revision": 10
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-16T09:54:29.983Z",
+    "copied_at": "2026-11-17T02:59:38.382Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,15 +31,15 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1303,
-    "exported_rows_before_filters": 1303,
+    "source_rows": 1308,
+    "exported_rows_before_filters": 1308,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
     "historical_depot_assignments_verified": false,
     "history_before_imported_records_verified": false
   },
-  "total_count": 1303,
+  "total_count": 1308,
   "securities": 82,
   "page_size": 100,
   "pages": [
@@ -587,13 +587,13 @@
       "name": "YieldMax Semiconductor Option Income (Dist)",
       "first_documented_transaction": "2026-09-18",
       "first_documented_purchase": "2026-09-18",
-      "last_documented_transaction": "2026-11-09",
+      "last_documented_transaction": "2026-11-13",
       "first_documented_purchase_in_linked_isins": "2026-09-18",
       "related_isins": [],
-      "transaction_count": 13,
+      "transaction_count": 14,
       "purchases": 8,
       "sales": 0,
-      "dividend_payments": 5,
+      "dividend_payments": 6,
       "history": "by-isin/IE000T8QD852.json"
     },
     {
@@ -783,11 +783,11 @@
       "name": "WisdomTree Core Physical Gold",
       "first_documented_transaction": "2026-08-13",
       "first_documented_purchase": "2026-08-13",
-      "last_documented_transaction": "2026-10-23",
+      "last_documented_transaction": "2026-11-16",
       "first_documented_purchase_in_linked_isins": "2026-08-13",
       "related_isins": [],
-      "transaction_count": 16,
-      "purchases": 16,
+      "transaction_count": 17,
+      "purchases": 17,
       "sales": 0,
       "dividend_payments": 0,
       "history": "by-isin/JE00BN2CJ301.json"
