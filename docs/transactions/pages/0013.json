@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T10:25:13.880Z",
+  "generated_at": "2026-11-18T19:00:48.824Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 18,
-        "updated_at": "2026-11-16T20:39:52.981Z",
-        "source_rows": 1279,
+        "revision": 19,
+        "updated_at": "2026-11-18T12:22:06.190Z",
+        "source_rows": 1280,
         "first_date": "2022-03-16",
-        "last_date": "2026-11-16"
+        "last_date": "2026-11-18"
       },
       "trade-republic": {
         "revision": 1,
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 10
+    "depot_configuration_revision": 11
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-18T10:25:13.972Z",
+    "copied_at": "2026-11-18T19:00:48.952Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,16 +31,16 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1308,
-    "exported_rows_before_filters": 1308,
+    "source_rows": 1309,
+    "exported_rows_before_filters": 1309,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
     "historical_depot_assignments_verified": false,
     "history_before_imported_records_verified": false
   },
-  "count": 8,
-  "total_count": 1308,
+  "count": 9,
+  "total_count": 1309,
   "pagination": {
     "offset": 1300,
     "limit": 100,
@@ -49,9 +49,9 @@
   },
   "transactions": [
     {
-      "id": "scalable:18:1272",
+      "id": "scalable:19:1272",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1272,
       "date": "2026-11-09",
       "time": "17:13:51",
@@ -73,9 +73,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:18:1273",
+      "id": "scalable:19:1273",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1273,
       "date": "2026-11-09",
       "time": "17:22:06",
@@ -99,9 +99,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:18:1274",
+      "id": "scalable:19:1274",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1274,
       "date": "2026-11-09",
       "time": "17:48:04",
@@ -123,9 +123,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:18:1275",
+      "id": "scalable:19:1275",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1275,
       "date": "2026-11-10",
       "time": "01:00:00",
@@ -147,9 +147,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:18:1276",
+      "id": "scalable:19:1276",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1276,
       "date": "2026-11-11",
       "time": "01:00:00",
@@ -171,9 +171,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:18:1277",
+      "id": "scalable:19:1277",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1277,
       "date": "2026-11-13",
       "time": "01:00:00",
@@ -197,9 +197,9 @@
       "depot_assignment_basis": "current_allocation"
     },
     {
-      "id": "scalable:18:1278",
+      "id": "scalable:19:1278",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1278,
       "date": "2026-11-16",
       "time": "01:00:00",
@@ -221,9 +221,9 @@
       "depot_assignment_basis": "unassigned"
     },
     {
-      "id": "scalable:18:1279",
+      "id": "scalable:19:1279",
       "broker": "scalable",
-      "source_revision": 18,
+      "source_revision": 19,
       "source_row": 1279,
       "date": "2026-11-16",
       "time": "19:34:52",
@@ -238,6 +238,32 @@
       "fees": 0,
       "taxes": 0,
       "cash_flow": -347.76,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [
+        "halten"
+      ],
+      "depot_assignment_basis": "current_allocation"
+    },
+    {
+      "id": "scalable:19:1280",
+      "broker": "scalable",
+      "source_revision": 19,
+      "source_row": 1280,
+      "date": "2026-11-18",
+      "time": "13:12:46",
+      "type": "buy",
+      "isin": "JE00BN2CJ301",
+      "name": "WisdomTree Core Physical Gold",
+      "currency": "EUR",
+      "shares": 1,
+      "quantity_delta": 1,
+      "unit_price": 341.5,
+      "booked_amount": -341.5,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": -341.5,
       "dividend_after_tax": null,
       "dividend_before_tax": null,
       "noncash_valuation": null,

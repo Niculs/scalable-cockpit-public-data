@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T10:25:13.880Z",
+  "generated_at": "2026-11-18T19:00:48.824Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 18,
-        "updated_at": "2026-11-16T20:39:52.981Z",
-        "source_rows": 1279,
+        "revision": 19,
+        "updated_at": "2026-11-18T12:22:06.190Z",
+        "source_rows": 1280,
         "first_date": "2022-03-16",
-        "last_date": "2026-11-16"
+        "last_date": "2026-11-18"
       },
       "trade-republic": {
         "revision": 1,
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 10
+    "depot_configuration_revision": 11
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-18T10:25:13.972Z",
+    "copied_at": "2026-11-18T19:00:48.952Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,15 +31,15 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1308,
-    "exported_rows_before_filters": 1308,
+    "source_rows": 1309,
+    "exported_rows_before_filters": 1309,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
     "historical_depot_assignments_verified": false,
     "history_before_imported_records_verified": false
   },
-  "total_count": 1308,
+  "total_count": 1309,
   "securities": 82,
   "page_size": 100,
   "pages": [
@@ -783,11 +783,11 @@
       "name": "WisdomTree Core Physical Gold",
       "first_documented_transaction": "2026-08-13",
       "first_documented_purchase": "2026-08-13",
-      "last_documented_transaction": "2026-11-16",
+      "last_documented_transaction": "2026-11-18",
       "first_documented_purchase_in_linked_isins": "2026-08-13",
       "related_isins": [],
-      "transaction_count": 17,
-      "purchases": 17,
+      "transaction_count": 18,
+      "purchases": 18,
       "sales": 0,
       "dividend_payments": 0,
       "history": "by-isin/JE00BN2CJ301.json"
