@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-18T19:00:47.459Z",
+  "generated_at": "2026-11-19T01:04:59.766Z",
   "currency": "EUR",
   "scope": "all",
   "data_as_of": {
@@ -35,7 +35,7 @@
     },
     "dividends_next_month": {
       "period": "2026-12",
-      "estimated_value": 432.33,
+      "estimated_value": 395.2,
       "is_forecast": true,
       "amount_status": "estimated",
       "components": [
@@ -59,7 +59,7 @@
         {
           "isin": "IE000KJPDY61",
           "name": "iShares World Equity High Income (Dist)",
-          "estimated_value": 54.4,
+          "estimated_value": 44.45,
           "amount_status": "estimated",
           "basis": [
             {
@@ -76,7 +76,7 @@
         {
           "isin": "IE0008BA4TY1",
           "name": "Rex Crypto Equity Income & Growth (Dist)",
-          "estimated_value": 103.51,
+          "estimated_value": 86.15,
           "amount_status": "estimated",
           "basis": [
             {
@@ -110,7 +110,7 @@
         {
           "isin": "IE000HF69TA9",
           "name": "Rex Tech Innovation Premium Income (Dist)",
-          "estimated_value": 109.69,
+          "estimated_value": 99.87,
           "amount_status": "estimated",
           "basis": [
             {
@@ -285,12 +285,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T11:18:29.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "SGXZ69436764",
@@ -298,12 +298,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:21:57.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "SE0007100599",
@@ -311,12 +311,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:21:53.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BK5BQT80",
@@ -324,12 +324,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:22:11.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE00BKM4GZ66",
@@ -337,12 +337,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:21:37.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "JE00BN2CJ301",
@@ -350,12 +350,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T11:33:06.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE000KJPDY61",
@@ -363,7 +363,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:19:54.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
@@ -376,7 +376,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:03:34.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
@@ -389,12 +389,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:22:05.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       },
       {
         "isin": "IE000T8QD852",
@@ -402,7 +402,7 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:02:42.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
@@ -415,12 +415,12 @@
         "status": "fresh",
         "fresh": true,
         "stale": false,
-        "age_days": 0,
+        "age_days": 1,
         "as_of": "2026-11-18T12:02:50.000Z",
         "date": "2026-11-18",
         "max_age_days": 3,
         "timestamp_verified": true,
-        "fx_age_days": 0
+        "fx_age_days": 1
       }
     ],
     "booking_issues": [],
@@ -448,7 +448,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-18T19:00:48.952Z",
+    "copied_at": "2026-11-19T01:05:01.346Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
