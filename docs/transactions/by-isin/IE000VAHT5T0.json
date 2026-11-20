@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T07:00:07.004Z",
+  "generated_at": "2026-11-20T16:03:13.448Z",
   "data_as_of": {
     "broker_imports": {
       "scalable": {
-        "revision": 19,
-        "updated_at": "2026-11-18T12:22:06.190Z",
-        "source_rows": 1280,
+        "revision": 20,
+        "updated_at": "2026-11-20T12:24:58.130Z",
+        "source_rows": 1291,
         "first_date": "2022-03-16",
-        "last_date": "2026-11-18"
+        "last_date": "2026-11-20"
       },
       "trade-republic": {
         "revision": 1,
@@ -18,11 +18,11 @@
         "last_date": "2026-09-17"
       }
     },
-    "depot_configuration_revision": 11
+    "depot_configuration_revision": 12
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-20T07:00:07.085Z",
+    "copied_at": "2026-11-20T16:03:13.537Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -31,8 +31,8 @@
   },
   "quality": {
     "complete": true,
-    "source_rows": 1309,
-    "exported_rows_before_filters": 1309,
+    "source_rows": 1320,
+    "exported_rows_before_filters": 1320,
     "invalid_rows": [],
     "unsupported_source_types": [],
     "depot_configuration_available": true,
@@ -40,26 +40,26 @@
     "history_before_imported_records_verified": false
   },
   "isin": "IE000VAHT5T0",
-  "count": 4,
+  "count": 5,
   "instrument": {
     "isin": "IE000VAHT5T0",
     "name": "Vanguard FTSE Global All-Cap (Acc)",
     "first_documented_transaction": "2026-08-31",
     "first_documented_purchase": "2026-08-31",
-    "last_documented_transaction": "2026-11-05",
+    "last_documented_transaction": "2026-11-19",
     "first_documented_purchase_in_linked_isins": "2026-08-31",
     "related_isins": [],
-    "transaction_count": 4,
+    "transaction_count": 5,
     "purchases": 4,
-    "sales": 0,
+    "sales": 1,
     "dividend_payments": 0
   },
   "corporate_action_links": [],
   "transactions": [
     {
-      "id": "scalable:19:1167",
+      "id": "scalable:20:1167",
       "broker": "scalable",
-      "source_revision": 19,
+      "source_revision": 20,
       "source_row": 1167,
       "date": "2026-08-31",
       "time": "18:49:02",
@@ -80,12 +80,12 @@
       "current_depot_ids": [
         "halten"
       ],
-      "depot_assignment_basis": "current_allocation"
+      "depot_assignment_basis": "remembered_allocation_without_date"
     },
     {
-      "id": "scalable:19:1205",
+      "id": "scalable:20:1205",
       "broker": "scalable",
-      "source_revision": 19,
+      "source_revision": 20,
       "source_row": 1205,
       "date": "2026-09-16",
       "time": "13:46:48",
@@ -106,12 +106,12 @@
       "current_depot_ids": [
         "halten"
       ],
-      "depot_assignment_basis": "current_allocation"
+      "depot_assignment_basis": "remembered_allocation_without_date"
     },
     {
-      "id": "scalable:19:1228",
+      "id": "scalable:20:1228",
       "broker": "scalable",
-      "source_revision": 19,
+      "source_revision": 20,
       "source_row": 1228,
       "date": "2026-09-28",
       "time": "08:54:27",
@@ -132,12 +132,12 @@
       "current_depot_ids": [
         "halten"
       ],
-      "depot_assignment_basis": "current_allocation"
+      "depot_assignment_basis": "remembered_allocation_without_date"
     },
     {
-      "id": "scalable:19:1267",
+      "id": "scalable:20:1267",
       "broker": "scalable",
-      "source_revision": 19,
+      "source_revision": 20,
       "source_row": 1267,
       "date": "2026-11-05",
       "time": "17:01:27",
@@ -158,7 +158,33 @@
       "current_depot_ids": [
         "halten"
       ],
-      "depot_assignment_basis": "current_allocation"
+      "depot_assignment_basis": "remembered_allocation_without_date"
+    },
+    {
+      "id": "scalable:20:1286",
+      "broker": "scalable",
+      "source_revision": 20,
+      "source_row": 1286,
+      "date": "2026-11-19",
+      "time": "16:30:09",
+      "type": "sell",
+      "isin": "IE000VAHT5T0",
+      "name": "Vanguard FTSE Global All-Cap (Acc)",
+      "currency": "EUR",
+      "shares": 579,
+      "quantity_delta": -579,
+      "unit_price": 4.26170207,
+      "booked_amount": 2467.52549998,
+      "fees": 0,
+      "taxes": 0,
+      "cash_flow": 2467.52549998,
+      "dividend_after_tax": null,
+      "dividend_before_tax": null,
+      "noncash_valuation": null,
+      "current_depot_ids": [
+        "halten"
+      ],
+      "depot_assignment_basis": "remembered_allocation_without_date"
     }
   ],
   "related_histories": []
