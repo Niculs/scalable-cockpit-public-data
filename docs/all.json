@@ -2,7 +2,7 @@
   "schema_version": 2,
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-24T04:44:06.760Z",
+    "copied_at": "2026-11-24T15:21:06.134Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
@@ -14,14 +14,14 @@
   },
   "summary": {
     "schema_version": 2,
-    "generated_at": "2026-11-24T04:44:06.108Z",
+    "generated_at": "2026-11-24T15:21:05.036Z",
     "currency": "EUR",
     "scope": "all",
     "data_as_of": {
       "bookings_through": "2026-11-20",
       "quotes_earliest": "2026-11-20T19:35:00.000Z",
       "quotes_latest": "2026-11-21T03:12:56.000Z",
-      "dividend_reference_checked_at": "2026-11-22T18:29:26.525Z",
+      "dividend_reference_checked_at": "2026-11-24T15:16:31.163Z",
       "broker_imports": {
         "scalable": {
           "revision": 20,
@@ -49,14 +49,14 @@
       },
       "dividends_next_month": {
         "period": "2026-12",
-        "estimated_value": 402.38,
+        "estimated_value": 431.08,
         "is_forecast": true,
         "amount_status": "estimated",
         "components": [
           {
             "isin": "SGXZ69436764",
             "name": "BW LPG LTD.",
-            "estimated_value": 77.9,
+            "estimated_value": 106.6,
             "amount_status": "estimated",
             "basis": [
               {
@@ -66,7 +66,7 @@
                 "after_tax": true,
                 "payments_per_year": 4,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-11-22T18:29:26.525Z"
+                "source_checked_at": "2026-11-24T15:16:31.163Z"
               }
             ]
           },
@@ -83,7 +83,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-11-22T18:29:26.525Z"
+                "source_checked_at": "2026-11-24T15:16:31.163Z"
               }
             ]
           },
@@ -100,7 +100,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-11-22T18:29:26.525Z"
+                "source_checked_at": "2026-11-24T15:16:31.163Z"
               }
             ]
           },
@@ -117,7 +117,7 @@
                 "after_tax": true,
                 "payments_per_year": 52,
                 "weekly_estimate": true,
-                "source_checked_at": "2026-11-22T18:29:26.525Z"
+                "source_checked_at": "2026-11-24T15:16:31.163Z"
               }
             ]
           },
@@ -134,7 +134,7 @@
                 "after_tax": true,
                 "payments_per_year": 12,
                 "weekly_estimate": false,
-                "source_checked_at": "2026-11-22T18:29:26.525Z"
+                "source_checked_at": "2026-11-24T15:16:31.163Z"
               }
             ]
           }
@@ -493,7 +493,7 @@
       "arithmetic_difference": 0,
       "complete": true
     },
-    "generated_at": "2026-11-24T04:44:06.343Z",
+    "generated_at": "2026-11-24T15:21:05.398Z",
     "currency": "EUR",
     "scope": "all_brokers",
     "filters": {
@@ -886,7 +886,7 @@
             ],
             "reference": {
               "source": "https://www.ishares.com/ch/professionals/en/products/335083/ishares-world-equity-high-income-active-ucits-etf",
-              "checked_at": "2026-11-22T18:29:26.525Z",
+              "checked_at": "2026-11-24T15:16:31.163Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1006,7 +1006,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/cegi-crypto-equity-income-and-growth-etf/",
-              "checked_at": "2026-11-22T18:29:26.525Z",
+              "checked_at": "2026-11-24T15:16:31.163Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1126,7 +1126,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/fepi-rex-tech-innovation-premium-income-etf/",
-              "checked_at": "2026-11-22T18:29:26.525Z",
+              "checked_at": "2026-11-24T15:16:31.163Z",
               "stale": false,
               "payments_per_year": 12
             },
@@ -1279,7 +1279,7 @@
             ],
             "reference": {
               "source": "https://hanetf.com/fund/chpy-yieldmax-semiconductor-option-income-etf/",
-              "checked_at": "2026-11-22T18:29:26.525Z",
+              "checked_at": "2026-11-24T15:16:31.163Z",
               "stale": false,
               "payments_per_year": 52
             },
@@ -1456,16 +1456,16 @@
             "annual_yield_percent": 16.62,
             "next_month": {
               "period": "2026-12",
-              "estimated_value": 77.9,
+              "estimated_value": 106.6,
               "payments": [
                 {
                   "broker": "scalable",
                   "period": "2026-12",
-                  "payment_date": null,
-                  "ex_date": null,
-                  "schedule_status": "estimated_rhythm",
-                  "source_amount_announced": false,
-                  "estimated_value": 77.9,
+                  "payment_date": "2026-12-14",
+                  "ex_date": "2026-12-03",
+                  "schedule_status": "issuer_published",
+                  "source_amount_announced": true,
+                  "estimated_value": 106.6,
                   "amount_status": "estimated",
                   "after_tax": true
                 }
@@ -1494,7 +1494,7 @@
             ],
             "reference": {
               "source": "https://www.bwlpg.com/investor/dividends/",
-              "checked_at": "2026-11-22T18:29:26.525Z",
+              "checked_at": "2026-11-24T15:16:31.163Z",
               "stale": false,
               "payments_per_year": 4
             },
@@ -1700,7 +1700,7 @@
   },
   "purchases": {
     "schema_version": 2,
-    "generated_at": "2026-11-24T04:44:06.517Z",
+    "generated_at": "2026-11-24T15:21:05.716Z",
     "currency": "EUR",
     "scope": "historical_purchases_all_imported_securities",
     "filters": {
@@ -13946,7 +13946,7 @@
   },
   "transactions": {
     "schema_version": 1,
-    "generated_at": "2026-11-24T04:44:06.648Z",
+    "generated_at": "2026-11-24T15:21:06.005Z",
     "scope": "all_imported_broker_transactions_including_closed_securities_and_unallocated_cash",
     "filters": {
       "isin": null,
