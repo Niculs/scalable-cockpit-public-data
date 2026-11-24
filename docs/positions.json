@@ -34,7 +34,7 @@
     "arithmetic_difference": 0,
     "complete": true
   },
-  "generated_at": "2026-11-23T20:07:04.991Z",
+  "generated_at": "2026-11-24T04:44:06.343Z",
   "currency": "EUR",
   "scope": "all_brokers",
   "filters": {
@@ -68,9 +68,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T20:30:00.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -89,8 +89,8 @@
       "dividends": {
         "payments": 0,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 0,
           "payments": 0
         },
@@ -140,11 +140,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -163,9 +163,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T20:45:01.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -184,8 +184,8 @@
       "dividends": {
         "payments": 0,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 0,
           "payments": 0
         },
@@ -235,11 +235,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -258,9 +258,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T20:30:01.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -279,8 +279,8 @@
       "dividends": {
         "payments": 0,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 0,
           "payments": 0
         },
@@ -330,11 +330,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -353,7 +353,7 @@
         "currency": "EUR",
         "as_of": "2026-11-21T00:31:12.000Z",
         "date": "2026-11-21",
-        "age_days": 2,
+        "age_days": 3,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
@@ -374,8 +374,8 @@
       "dividends": {
         "payments": 2,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 142.8,
           "payments": 2
         },
@@ -473,7 +473,7 @@
         "currency": "EUR",
         "as_of": "2026-11-21T00:32:29.000Z",
         "date": "2026-11-21",
-        "age_days": 2,
+        "age_days": 3,
         "stale": false,
         "freshness_status": "fresh",
         "timestamp_verified": true,
@@ -494,8 +494,8 @@
       "dividends": {
         "payments": 2,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 207.63,
           "payments": 2
         },
@@ -593,9 +593,9 @@
         "currency": "EUR",
         "as_of": "2026-11-21T03:12:56.000Z",
         "date": "2026-11-21",
-        "age_days": 2,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 3,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -614,8 +614,8 @@
       "dividends": {
         "payments": 2,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 111.61,
           "payments": 2
         },
@@ -690,11 +690,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -713,9 +713,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T20:45:01.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -734,8 +734,8 @@
       "dividends": {
         "payments": 7,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 172.69,
           "payments": 7
         },
@@ -843,11 +843,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -866,9 +866,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T20:45:00.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -887,8 +887,8 @@
       "dividends": {
         "payments": 0,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 0,
           "payments": 0
         },
@@ -938,11 +938,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -961,9 +961,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T19:35:00.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -982,8 +982,8 @@
       "dividends": {
         "payments": 13,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 326.95,
           "payments": 3
         },
@@ -1071,11 +1071,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -1094,9 +1094,9 @@
         "currency": "EUR",
         "as_of": "2026-11-20T20:46:00.000Z",
         "date": "2026-11-20",
-        "age_days": 3,
-        "stale": false,
-        "freshness_status": "fresh",
+        "age_days": 4,
+        "stale": true,
+        "freshness_status": "stale",
         "timestamp_verified": true,
         "retrieved_at": "2026-11-21T15:55:22.005Z",
         "provider": "TradingView · manueller Abruf",
@@ -1115,8 +1115,8 @@
       "dividends": {
         "payments": 1,
         "last_12_months": {
-          "from": "2025-11-23",
-          "to": "2026-11-23",
+          "from": "2025-11-24",
+          "to": "2026-11-24",
           "value": 0,
           "payments": 0
         },
@@ -1182,11 +1182,11 @@
         }
       ],
       "quality": {
-        "complete": true,
+        "complete": false,
         "data_complete": true,
-        "quotes_fresh": true,
-        "stale_quote": false,
-        "quote_status": "fresh",
+        "quotes_fresh": false,
+        "stale_quote": true,
+        "quote_status": "stale",
         "max_quote_age_days": 3,
         "missing_quote": false,
         "booking_issues": []
@@ -1204,11 +1204,20 @@
     "result_before_tax": -1938.03
   },
   "quality": {
-    "complete": true,
+    "complete": false,
     "data_complete": true,
-    "quotes_fresh": true,
+    "quotes_fresh": false,
     "max_quote_age_days": 3,
-    "stale_quote_isins": [],
+    "stale_quote_isins": [
+      "IE00BK5BQT80",
+      "JE00BN2CJ301",
+      "IE00BKM4GZ66",
+      "IE000HF69TA9",
+      "IE000T8QD852",
+      "GB00BLD4ZL17",
+      "SGXZ69436764",
+      "SE0007100599"
+    ],
     "unverified_quote_isins": [],
     "missing_quote_isins": []
   },
@@ -1231,7 +1240,7 @@
   },
   "delivery": {
     "type": "public_snapshot",
-    "copied_at": "2026-11-23T20:07:05.637Z",
+    "copied_at": "2026-11-24T04:44:06.760Z",
     "automatic_refresh_enabled": true,
     "scheduled_refresh_minutes": 15,
     "stale_after_seconds": 3600,
